@@ -1,0 +1,122 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "brass-products",
+        "friendly_name": "Brass Products"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "bricks_blocks",
+        "friendly_name": "Bricks & Blocks"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "building_equipment",
+        "friendly_name": "Building Equipment"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "cement_plaster",
+        "friendly_name": "Cement & Plaster"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "copper-pipes",
+        "friendly_name": "Copper Pipes & Fittings"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "guttering",
+        "friendly_name": "Guttering"
+      }
+    },
+    {
+      "pk": 7,
+      "model": "products.category",
+      "fields": {
+        "name": "hand_tools",
+        "friendly_name": "Hand Tools"
+      }
+    },
+    {
+      "pk": 8,
+      "model": "products.category",
+      "fields": {
+        "name": "lead_products",
+        "friendly_name": "Lead Products"
+      }
+    },
+    {
+      "pk": 9,
+      "model": "products.category",
+      "fields": {
+        "name": "plastic-pipes",
+        "friendly_name": "Plastic Pipes & Fittings"
+      }
+    },
+    {
+        "pk": 10,
+        "model": "products.category",
+        "fields": {
+          "name": "power_tools",
+          "friendly_name": "Power Tools"
+        }
+      },
+      {
+        "pk": 11,
+        "model": "products.category",
+        "fields": {
+          "name": "prepared_timber",
+          "friendly_name": "Prepared Timber"
+        }
+      },
+      {
+        "pk": 12,
+        "model": "products.category",
+        "fields": {
+          "name": "sand_aggregates",
+          "friendly_name": "Sand & Aggregates"
+        }
+      },
+      {
+        "pk": 13,
+        "model": "products.category",
+        "fields": {
+          "name": "sawn_timber",
+          "friendly_name": "Sawn Timber"
+        }
+      },
+      {
+        "pk": 14,
+        "model": "products.category",
+        "fields": {
+          "name": "sheet_materials",
+          "friendly_name": "Sheet Materials"
+        }
+      },
+      {
+        "pk": 15,
+        "model": "products.category",
+        "fields": {
+          "name": "slates_tiles",
+          "friendly_name": "Slates & Tiles"
+        }
+      }
+  ]
