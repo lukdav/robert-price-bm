@@ -25,6 +25,9 @@ body {
     width: 1.5rem;
 }
 
+.logo-img {
+}
+
 .logo-font {
     text-transform: uppercase;
 }
@@ -61,6 +64,10 @@ body {
 
 .text-black {
     color: #000 !important;
+}
+
+.bg-black {
+    background-color: #000 !important;
 }
 
 .border-red {
