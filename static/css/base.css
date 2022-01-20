@@ -26,6 +26,8 @@ body {
 }
 
 .logo-img {
+    height: 4rem;
+    width: auto;
 }
 
 .logo-font {
@@ -81,6 +83,10 @@ body {
   .container {
     max-width: 80%;
   }
+
+  .logo-img {
+    
+}
 }
 
 /* fixed top navbar only on medium and up */
