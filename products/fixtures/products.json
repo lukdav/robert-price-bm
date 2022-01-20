@@ -1542,224 +1542,224 @@
         "pk": 105,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "147680",
+            "name": "CLS 3.0m x 50mm x 75mm (Fin 38x63)",
+            "description": "CLS is used primarily in timber frame home construction and for internal and partition walls.",
+            "price": 11.22,
+            "category": 11,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5FE19BADBB%2D70B2%2D44BE%2DAD9CD534D105D7A1%22%2C%22catthumb%5F856C5EA7%2D235E%2D4928%2DA8C9368307863C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=322776&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "cls-3x2.jpg"
         }
     },
     {
         "pk": 106,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "82864",
+            "name": "CLS 3.0m x 50mm x 100mm (Fin 38x89)",
+            "description": "CLS is used primarily in timber frame home construction and for internal and partition walls.",
+            "price": 15.19,
+            "category": 11,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5FE19BADBB%2D70B2%2D44BE%2DAD9CD534D105D7A1%22%2C%22catthumb%5F856C5EA7%2D235E%2D4928%2DA8C9368307863C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=82864&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "cls-4x2.jpg"
         }
     },
     {
         "pk": 107,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "210943",
+            "name": "CLS 4.8m x 50mm x 150mm (Fin 38x140)",
+            "description": "CLS is used primarily in timber frame home construction and for internal and partition walls.",
+            "price": 27.74,
+            "category": 11,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5FE19BADBB%2D70B2%2D44BE%2DAD9CD534D105D7A1%22%2C%22catthumb%5F856C5EA7%2D235E%2D4928%2DA8C9368307863C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=210943&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "cls-6x2.jpg"
         }
     },
     {
         "pk": 108,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "41874",
+            "name": "PSE Arris 4 Edge Spindle 50mm x 50mm (per meter)",
+            "description": "Used to be cut into decking spindle lengths",
+            "price": 2.66,
+            "category": 11,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F1F3B9D41%2DC637%2D4A00%2DB83AD72CD4E273CB%22%2C%22catthumb%5F856C5EA7%2D235E%2D4928%2DA8C9368307863C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=41874&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "pse-edge-spindle-2x2.jpg"
         }
     },
     {
         "pk": 109,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "0024919X",
+            "name": "PTG Timber 19mm x 100mm (per meter)",
+            "description": "Used for cladding.",
+            "price": 2.45,
+            "category": 11,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5FE34A7F0B%2D3375%2D490C%2D9A7AFEEAFA070B4E%22%2C%22catthumb%5F856C5EA7%2D235E%2D4928%2DA8C9368307863C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=0024919X&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "ptg-4x1.jpg"
         }
     },
     {
         "pk": 110,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "234907",
+            "name": "PTG Timber 19mm x 125mm (per meter)",
+            "description": "Used for cladding and floor boards.",
+            "price": 2.65,
+            "category": 11,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5FE34A7F0B%2D3375%2D490C%2D9A7AFEEAFA070B4E%22%2C%22catthumb%5F856C5EA7%2D235E%2D4928%2DA8C9368307863C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=234907&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "ptg-5x1.jpg"
         }
     },
     {
         "pk": 111,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "0015671X",
+            "name": "PTG Timber 19mm x 150mm (per meter)",
+            "description": "Used to make sheds, clad buildings.",
+            "price": 4.18,
+            "category": 11,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5FE34A7F0B%2D3375%2D490C%2D9A7AFEEAFA070B4E%22%2C%22catthumb%5F856C5EA7%2D235E%2D4928%2DA8C9368307863C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=0015671X&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "ptg-6x1.jpg"
         }
     },
     {
         "pk": 112,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "2464895",
+            "name": "PTGVJ 2S Cedar 25mm x 150mm (per meter)",
+            "description": "Used to clad buildings.",
+            "price": 13.08,
+            "category": 11,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5FE34A7F0B%2D3375%2D490C%2D9A7AFEEAFA070B4E%22%2C%22catthumb%5F856C5EA7%2D235E%2D4928%2DA8C9368307863C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=2464895&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "ptg-cedar-6x1.jpg"
         }
     },
     {
         "pk": 113,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "72486",
+            "name": "Shiplap Timber 4.2m x 19mm x 125mm",
+            "description": "Used to clad sheds, summerhouses and outside of buildings",
+            "price": 11.35,
+            "category": 11,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5FE34A7F0B%2D3375%2D490C%2D9A7AFEEAFA070B4E%22%2C%22catthumb%5F856C5EA7%2D235E%2D4928%2DA8C9368307863C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=72486&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "shiplap-5x1.jpg"
         }
     },
     {
         "pk": 114,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "222518",
+            "name": "Shiplap Timber 4.2m x 19mm x 150mm",
+            "description": "Used to clad sheds, summerhouses and outside of buildings",
+            "price": 15.56,
+            "category": 11,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5FE34A7F0B%2D3375%2D490C%2D9A7AFEEAFA070B4E%22%2C%22catthumb%5F856C5EA7%2D235E%2D4928%2DA8C9368307863C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=222518&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "shiplap-6x1.jpg"
         }
     },
     {
         "pk": 115,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "88889",
+            "name": "Shiplap Treated 19mm x 150mm x 5.4m",
+            "description": "Used to clad sheds, summerhouses and outside of buildings",
+            "price": 19.96,
+            "category": 11,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5FE34A7F0B%2D3375%2D490C%2D9A7AFEEAFA070B4E%22%2C%22catthumb%5F856C5EA7%2D235E%2D4928%2DA8C9368307863C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=88889&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "shiplap-treated-6x1.jpg"
         }
     },
     {
         "pk": 116,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "106437",
+            "name": "20mm to Dust Aggregate - Bulk Bag",
+            "description": "20mm to Dust Aggregate - Bulk Bag",
+            "price": 60.41,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F27CDF9CF%2D5E26%2D48B4%2DA7D3545EE45363E2%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=106437&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "20mm-to-dust.jpg"
         }
     },
     {
         "pk": 117,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "260231",
+            "name": "Building Sand - Bulk Bag",
+            "description": "Building Sand - Bulk Bag",
+            "price": 60.41,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F954AB469%2DCE86%2D41A6%2DB7FA674F25FDE025%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=260231&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "building-sand.jpg"
         }
     },
     {
         "pk": 118,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "96202",
+            "name": "6mm Clean Chippings - Bulk Bag",
+            "description": "6mm Clean Chippings - Bulk Bag",
+            "price": 62.20,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F27CDF9CF%2D5E26%2D48B4%2DA7D3545EE45363E2%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=96202&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "chippings-6mm.jpg"
         }
     },
     {
         "pk": 119,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "281913",
+            "name": "10mm Clean Chippings - Bulk Bag",
+            "description": "10mm Clean Chippings - Bulk Bag",
+            "price": 43,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F27CDF9CF%2D5E26%2D48B4%2DA7D3545EE45363E2%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=281913&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "chippings-10mm.jpg"
         }
     },
     {
         "pk": 120,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "122718",
+            "name": "20mm Clean Chippings - Bulk Bag",
+            "description": "20mm Clean Chippings - Bulk Bag",
+            "price": 60.00,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F27CDF9CF%2D5E26%2D48B4%2DA7D3545EE45363E2%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=122718&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "chippings-20mm.jpg"
         }
     },
     {
@@ -1767,658 +1767,335 @@
         "model": "products.product",
         "fields": {
             "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "name": "40mm Clean Chippings - Bulk Bag",
+            "description": "40mm Clean Chippings - Bulk Bag",
+            "price": 60.00,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F27CDF9CF%2D5E26%2D48B4%2DA7D3545EE45363E2%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=7874373&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "chippings-40mm.jpg"
         }
     },
     {
         "pk": 122,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "266175",
+            "name": "Concreting Sand - Bulk Bag",
+            "description": "Concreting Sand - Bulk Bag",
+            "price": 60.41,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F954AB469%2DCE86%2D41A6%2DB7FA674F25FDE025%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=266175&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "concreting-sand.jpg"
         }
     },
     {
         "pk": 123,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "67709",
+            "name": "Pea Gravel - Bulk Bag",
+            "description": "Pea Gravel - Bulk Bag",
+            "price": 60.41,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F27CDF9CF%2D5E26%2D48B4%2DA7D3545EE45363E2%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=67709&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "pea-gravel.jpg"
         }
     },
     {
         "pk": 124,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "264350",
+            "name": "Red Pit Sand - Bulk Bag",
+            "description": "Red Pit Sand - Bulk Bag",
+            "price": 71.06,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F954AB469%2DCE86%2D41A6%2DB7FA674F25FDE025%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=264350&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "red-pit-sand.jpg"
         }
     },
     {
         "pk": 125,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "251739",
+            "name": "All In Mixed Sand & Chippings - Bulk Bag",
+            "description": "All In Mixed Sand & Chippings - Bulk Bag",
+            "price": 60.41,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F27CDF9CF%2D5E26%2D48B4%2DA7D3545EE45363E2%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=251739&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "sand-chippings.jpg"
         }
     },
     {
         "pk": 126,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "220779",
+            "name": "Scalpings - Bulk Bag",
+            "description": "Scalpings - Bulk Bag",
+            "price": 65.77,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F27CDF9CF%2D5E26%2D48B4%2DA7D3545EE45363E2%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=220779&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "scalpings.jpg"
         }
     },
     {
         "pk": 127,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "156523",
+            "name": "Stone Dust - Bulk Bag",
+            "description": "Stone Dust - Bulk Bag",
+            "price": 39.90,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F27CDF9CF%2D5E26%2D48B4%2DA7D3545EE45363E2%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=156523&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "stone-dust.jpg"
         }
     },
     {
         "pk": 128,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "179302",
+            "name": "Subbase - Bulk Bag",
+            "description": "Subbase - Bulk Bag",
+            "price": 60.41,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F27CDF9CF%2D5E26%2D48B4%2DA7D3545EE45363E2%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=179302&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "subbase.jpg"
         }
     },
     {
         "pk": 129,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "63533",
+            "name": "Yellow Rendering Pit Sand - Bulk Bag",
+            "description": "Yellow Rendering Pit Sand - Bulk Bag",
+            "price": 71.06,
+            "category": 12,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F954AB469%2DCE86%2D41A6%2DB7FA674F25FDE025%22%2C%22catthumb%5FDFCB2CA1%2D6069%2D4BE3%2DBD6BDC6465F87AC3%22%2C%22catthumb%5F25629353%2DB45B%2D492E%2D8AA60A9D346D063F%22%5D&aspect=5:4&crop=true&merchantCode=63533&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "yellow-pit-sand.jpg"
         }
     },
     {
         "pk": 130,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "142166",
+            "name": "Sawn Timber Dry Grade 4.8m x 47mm x 75mm",
+            "description": "General purpose sawn timber",
+            "price": 23.14,
+            "category": 13,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?merchantCode=57D212A6-09A8-420E-B862D183F6B74891&size=200&crop=true&imageplaceholder=http://www.robert-price.co.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "dry-3x2.jpg"
         }
     },
     {
         "pk": 131,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "133760",
+            "name": "Sawn Timber Dry Grade 2.4m x 100mm x 200mm",
+            "description": "General purpose sawn timber",
+            "price": 22.95,
+            "category": 13,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F57D212A6%2D09A8%2D420E%2DB862D183F6B74891%22%2C%22catthumb%5F666AE889%2D4BC3%2D4AA2%2DB94C30686F2AA539%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=133760&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "dry-8x4.jpg"
         }
     },
     {
         "pk": 132,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "9189531",
+            "name": "Roofing Battens Red 4.8m x 50mm x 25mm",
+            "description": "Roofing Battens Red 4.8m x 50mm x 25mm",
+            "price": 4.38,
+            "category": 13,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?merchantCode=344A5E4A-192B-4A02-B303D10419B947A4&size=200&crop=true&imageplaceholder=http://www.robert-price.co.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "red-batten.jpg"
         }
     },
     {
         "pk": 133,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "71889",
+            "name": "Sawn Timber Treated 4.8m x 47mm x 100mm",
+            "description": "Treated timber",
+            "price": 22.01,
+            "category": 13,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?merchantCode=0D2A9019-FE74-4232-9879617F1349D638&size=200&crop=true&imageplaceholder=http://www.robert-price.co.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "treated-4x2.jpg"
         }
     },
     {
         "pk": 134,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "136964",
+            "name": "Chipboard PCX 2400 x 600 x 18mm",
+            "description": "EGGER are always looking at ways to advance their products. Specifying EGGER Peel Clean Xtra for structural flooring applications means that you will benefit from a brand new film which is stronger and more resilient to the rigours of site traffic. The new film provides enhanced slip resistance and protection on site for up to 42 days, as well as being covered by the EGGER Advanced Lifetime Guarantee. Once the film is peeled away a polymer seal is left on top of the chipboard surface providing an additional permanent moisture barrier.",
+            "price": 39.86,
+            "category": 14,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F3502535D%2DC495%2D4530%2DA006886E2D05D1F8%22%2C%22catthumb%5F21C9820B%2DEB44%2D458D%2D91F729F59C9B6C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=136964&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "chipboard-pcx.jpg"
         }
     },
     {
         "pk": 135,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "241571",
+            "name": "Chipboard PFB Protect 2400 x 600 x 18mm",
+            "description": "EGGER Protect is a true market-leading product that offers a wide range of tangible advantages. EGGER Protect is manufactured from an EGGER P5 flooring grade particleboard with a unique, weather resistant surface layer applied to both the top and underside of the board.",
+            "price": 33.28,
+            "category": 14,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F3502535D%2DC495%2D4530%2DA006886E2D05D1F8%22%2C%22catthumb%5F21C9820B%2DEB44%2D458D%2D91F729F59C9B6C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=241571&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "chipboard-protect.jpg"
         }
     },
     {
         "pk": 136,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "256056",
+            "name": "Chipboard T&G 2400 x 600 x 18mm",
+            "description": "The backbone of EGGER's range of flooring products for residential applications is the EGGER P5 grade (enhanced moisture resistant) particleboard. This outstanding tongue-and-groove product is specified by the NHBC for new-build applications and is ideal in dry conditions for domestic flooring. EGGER P5 is also suitable for use in damp or humid environments, such as bathrooms and kitchens, where it provides excellent protection.",
+            "price": 24.48,
+            "category": 14,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F3502535D%2DC495%2D4530%2DA006886E2D05D1F8%22%2C%22catthumb%5F21C9820B%2DEB44%2D458D%2D91F729F59C9B6C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=71285&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "chipboard-t&g.jpg"
         }
     },
     {
         "pk": 137,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "101133",
+            "name": "OSB STD 2440 x 1220 x 11mm",
+            "description": "Hoarding boarding out sheds & packing cases",
+            "price": 39.59,
+            "category": 14,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F32E3C5D2%2D641A%2D4904%2D8722D1263AFFE651%22%2C%22catthumb%5F21C9820B%2DEB44%2D458D%2D91F729F59C9B6C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=101133&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "osb.jpg"
         }
     },
     {
         "pk": 138,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "3682466",
+            "name": "Plywood Exterior 2440 x 1220 x 12mm",
+            "description": "Hardwood faced Poplar core plywood. One piece face veneer uniform in colour with occasional filler on reverese.",
+            "price": 48.04,
+            "category": 14,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F95A2D679%2D6DDF%2D4A6C%2D869C1FB35D027AE5%22%2C%22catthumb%5F21C9820B%2DEB44%2D458D%2D91F729F59C9B6C4B%22%2C%22catthumb%5FA66B9C48%2D16F5%2D495F%2DAA43591181D47305%22%5D&aspect=5:4&crop=true&merchantCode=3682466&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "plywood.jpg"
         }
     },
     {
         "pk": 139,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "49646",
+            "name": "Jutland Slate Blue/Black 600mm x 300mm",
+            "description": "Man made roof slate",
+            "price": 1.60,
+            "category": 15,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5FDAC3C16D%2D714D%2D4EAF%2DA35B0E04528192A0%22%2C%22catthumb%5F6019003C%2DC3FC%2D4180%2DA3CF0E58D11AC45E%22%2C%22catthumb%5F097E3B85%2D31D7%2D490E%2DB673D3BDADD34A1E%22%5D&aspect=5:4&crop=true&merchantCode=49646&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "jutland-slate-blue-black.jpg"
         }
     },
     {
         "pk": 140,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "4982820",
+            "name": "Jutland Slate Graphite 600mm x 300mm",
+            "description": "Man made roof slate",
+            "price": 1.35,
+            "category": 15,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5FDAC3C16D%2D714D%2D4EAF%2DA35B0E04528192A0%22%2C%22catthumb%5F6019003C%2DC3FC%2D4180%2DA3CF0E58D11AC45E%22%2C%22catthumb%5F097E3B85%2D31D7%2D490E%2DB673D3BDADD34A1E%22%5D&aspect=5:4&crop=true&merchantCode=4982820&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "jutland-slate-graphite.jpg"
         }
     },
     {
         "pk": 141,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "280763",
+            "name": "Marley Double Roman Old English Dark Red (192)",
+            "description": "A modern version of the roll profile seen on roofs throughout Europe for over 2000 years, the Double Roman offers all the functional benefits of today’s interlocking concrete tile technology.",
+            "price": 310.46,
+            "category": 15,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F89C22C78%2D7036%2D44DB%2DAD37C3C60456837F%22%2C%22catthumb%5F6019003C%2DC3FC%2D4180%2DA3CF0E58D11AC45E%22%2C%22catthumb%5F097E3B85%2D31D7%2D490E%2DB673D3BDADD34A1E%22%5D&aspect=5:4&crop=true&merchantCode=280763&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "marley-old-english.jpg"
         }
     },
     {
         "pk": 142,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "291293",
+            "name": "Marley Double Roman Smooth Brown (192)",
+            "description": "A modern version of the roll profile seen on roofs throughout Europe for over 2000 years, the Double Roman offers all the functional benefits of today’s interlocking concrete tile technology.",
+            "price": 310.46,
+            "category": 15,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F89C22C78%2D7036%2D44DB%2DAD37C3C60456837F%22%2C%22catthumb%5F6019003C%2DC3FC%2D4180%2DA3CF0E58D11AC45E%22%2C%22catthumb%5F097E3B85%2D31D7%2D490E%2DB673D3BDADD34A1E%22%5D&aspect=5:4&crop=true&merchantCode=291293&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "marley-smooth-brown.jpg"
         }
     },
     {
         "pk": 143,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "41130",
+            "name": "Marley Double Roman Smooth Grey (192)",
+            "description": "A modern version of the roll profile seen on roofs throughout Europe for over 2000 years, the Double Roman offers all the functional benefits of today’s interlocking concrete tile technology.",
+            "price": 310.46,
+            "category": 15,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F89C22C78%2D7036%2D44DB%2DAD37C3C60456837F%22%2C%22catthumb%5F6019003C%2DC3FC%2D4180%2DA3CF0E58D11AC45E%22%2C%22catthumb%5F097E3B85%2D31D7%2D490E%2DB673D3BDADD34A1E%22%5D&aspect=5:4&crop=true&merchantCode=41130&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "marley-smooth-grey.jpg"
         }
     },
     {
         "pk": 144,
         "model": "products.product",
         "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
+            "sku": "0032888X",
+            "name": "Slate Spanish Contessa 500mm x 250mm",
+            "description": "Natural Roof Slate",
+            "price": 1.97,
+            "category": 15,
             "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
+            "image_url": "https://ebiz.uk/api/productImage?siteID=robertprice&fallBacks=%5B%22catthumb%5F193CA63A%2D9DBA%2D4E62%2D9F350803C3B4637C%22%2C%22catthumb%5F6019003C%2DC3FC%2D4180%2DA3CF0E58D11AC45E%22%2C%22catthumb%5F097E3B85%2D31D7%2D490E%2DB673D3BDADD34A1E%22%5D&aspect=5:4&crop=true&merchantCode=0032888X&size=medium&imageplaceholder=http://ebiz.uk/includes/images/sites/9/holdingimage.jpg",
+            "image": "slate-spanish-contessa.jpg"
         }
-    },
-    {
-        "pk": 145,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 146,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 147,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 148,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 149,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 150,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 151,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 152,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 153,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 154,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 155,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 156,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 157,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 158,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 159,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 160,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 161,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 162,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 163,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 164,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 165,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 166,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-    {
-        "pk": 167,
-        "model": "products.product",
-        "fields": {
-            "sku": "",
-            "name": "",
-            "description": "",
-            "price": ,
-            "category": 5,
-            "rating": 5,
-            "image_url": "",
-            "image": ".jpg"
-        }
-    },
-
+    }
 ]
