@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    background: url('/media/flags.jpg') no-repeat center center fixed;
+    background: white;
+    /* url('/media/flags.jpg') no-repeat center center fixed; */
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -25,6 +26,10 @@ body {
     width: 1.5rem;
 }
 
+.header-container {
+    padding-top: 132px;
+}
+
 .logo-img {
     height: 4rem;
     width: auto;
@@ -38,11 +43,27 @@ body {
     width: fit-content;
 }
 
+/* Carousel container */
+
+.carousel-item {
+    height: 34rem;
+    background: #777;
+    color: white;
+    position: relative;
+}
+
+.carousel-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
 .shop-now-button {
     background: #FF0100;
     color: white;
-    min-width: 260px;
-    display: block;
 }
 
 .btn-red {
@@ -80,13 +101,20 @@ body {
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
+    .container {
+        max-width: 80%;
+    }
 
-  .logo-img {
-    
-}
+    .carousel-item {
+        height: 42rem;
+    }
+
+    .carousel-container {
+        padding-bottom: 100px;
+        padding-left: 100px;
+    }
+
+
 }
 
 /* fixed top navbar only on medium and up */

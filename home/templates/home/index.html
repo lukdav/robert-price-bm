@@ -2,15 +2,34 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100 ml-0 p-0">
+    <div id="carousel-welcome" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-container">
+                    <h2>Everything you need, in one place</h2>
+                    <a href="" class="shop-now-button btn btn-lg rounded-2 text-uppercase py-2">Shop Now</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-container">
+                    <h2>Everything you need, in one place</h2>
+                    <a href="" class="shop-now-button btn btn-lg rounded-2 text-uppercase py-2">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- <div class="container h-100 ml-0 p-0">
         <div class="row h-100">
             <div class="col-7 col-md-6 p-2">
                 <h1 class="call-to-action display-4 logo-font text-red pl-4">
@@ -23,5 +42,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 {% endblock %}
+
+<script>$('.carousel').carousel()</script>
