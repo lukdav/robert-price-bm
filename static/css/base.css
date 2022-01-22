@@ -56,13 +56,7 @@ body {
     background: rgba(0, 0, 0, 0.5);
     width: fit-content;
     border: solid 2px #FF0100;
-    border-left: 0;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    position: absolute;
-    text-align: left;
-    left: 0;
-    bottom: 0;
+    border-radius: 5px;
 }
 
 .cta-btn {
@@ -73,10 +67,6 @@ body {
 
 .sm-cta-btn {
     width: fit-content;
-    position: absolute;
-    text-align: left;
-    left: 0;
-    bottom: 0;
 }
 
 .btn-red {
@@ -169,10 +159,6 @@ body {
 
     .header-container {
         padding-top: 164px !important;
-    }
-
-    .carousel-item {
-        height: 42rem !important;
     }
 }
 
