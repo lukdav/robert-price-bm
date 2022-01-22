@@ -111,6 +111,19 @@ body {
     border: 1px solid #FF0100 !important;
 }
 
+/* Overlay */
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: white;
+    position: fixed;
+    z-index: -1;
+}
+
+
 /* -------------------------------- Media Queries */
 
 /* Very large container on xxl screens */
