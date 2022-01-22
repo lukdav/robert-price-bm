@@ -123,6 +123,12 @@ body {
     z-index: -1;
 }
 
+.product-img {
+    object-fit: cover;
+    height: 12rem;
+    overflow: hidden;
+}
+
 
 /* -------------------------------- Media Queries */
 
