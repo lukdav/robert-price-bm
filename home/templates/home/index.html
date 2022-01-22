@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block content %}
-    <div id="carouselWelcome" class="carousel slide" data-ride="carousel">
+    <div id="carouselWelcome" class="carousel slide mx-auto rounded-2" data-ride="carousel">
         <ol class="carousel-indicators">
             <li class="active" data-target="#carouselWelcome" data-slide-to="0"></li>
             <li data-target="#carouselWelcome" data-slide-to="1"></li>
@@ -18,21 +18,27 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="carousel-container">
-                    <h2>Everything you need, in one place</h2>
-                    <a href="" class="shop-now-button btn btn-lg rounded-2 text-uppercase py-2">Shop Now</a>
+                <img src="/media/bb-stack.jpg" class="d-block w-100" alt="Bulk bags">
+                <a href="" class="carousel-caption cta-btn sm-cta-btn d-sm-none btn btn-sm rounded-2 text-uppercase p-2 mb-4 ml-4">Shop Now</a>
+                <div class="carousel-caption call-to-action d-none d-sm-block mb-5 pt-0">
+                    <h2 class="p-2 ml-4">Everything you need, in one place</h2>
+                    <a href="" class="cta-btn btn btn-lg rounded-2 text-uppercase p-2 ml-4">Shop Now</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-container">
-                    <h2>Great discounts and deals for account holders</h2>
-                    <a href="" class="shop-now-button btn btn-lg rounded-2 text-uppercase py-2">Sign Up</a>
+                <img src="/media/flags.jpg" class="d-block w-100" alt="Bulk bags">
+                <a href="" class="carousel-caption cta-btn sm-cta-btn d-sm-none btn btn-sm rounded-2 text-uppercase p-2 mb-4 ml-4">Sign Up</a>
+                <div class="carousel-caption call-to-action d-none d-sm-block mb-5 pt-0">
+                    <h2 class="p-2 ml-4">Great discounts and deals for account holders</h2>
+                    <a href="" class="cta-btn btn btn-lg rounded-2 text-uppercase p-2 ml-4">Sign Up</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-container">
-                    <h2>Amazing deals on the best products for your project</h2>
-                    <a href="" class="shop-now-button btn btn-lg rounded-2 text-uppercase py-2">View Deals</a>
+                <img src="/media/truck.jpg" class="d-block w-100" alt="Bulk bags">
+                <a href="" class="carousel-caption cta-btn sm-cta-btn d-sm-none btn btn-sm rounded-2 text-uppercase p-2 mb-4 ml-4">View Deals</a>
+                <div class="carousel-caption call-to-action d-none d-sm-block mb-5 pt-0">
+                    <h2 class="p-2 ml-4">Amazing deals on the best products for your project</h2>
+                    <a href="" class="cta-btn btn btn-lg rounded-2 text-uppercase p-2 ml-4">View Deals</a>
                 </div>
             </div>
         </div>
@@ -48,20 +54,6 @@
 
 
 
-<!-- <div class="container h-100 ml-0 p-0">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 p-2">
-                <h1 class="call-to-action display-4 logo-font text-red pl-4">
-                    Everything you need in one place
-                </h1>
-                <div class="my-3">
-                    <h4>
-                        <a href="" class="shop-now-button btn btn-lg rounded-2 text-uppercase py-3 mx-auto">Shop Now</a>
-                    </h4>
-                </div>
-            </div>
-        </div>
-    </div> -->
 {% endblock %}
 
 <script>$('.carousel').carousel()</script>

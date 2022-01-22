@@ -3,18 +3,11 @@ html {
 }
 
 body {
-    background: white;
-    /* url('/media/flags.jpg') no-repeat center center fixed; */
+    background: #7E7E7E;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    color: #000;
     font-family: 'Ubuntu', sans-serif;
-}
-
-.call-to-action {
-    margin-top: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
 }
 
 /* from Bulma */
@@ -45,25 +38,45 @@ body {
 
 /* Carousel container */
 
+.carousel {
+    max-width: 2000px;
+}
+
 .carousel-item {
-    height: 34rem;
-    background: #777;
+    height: auto;
     color: white;
     position: relative;
 }
 
-.carousel-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding-bottom: 50px;
-    padding-left: 50px;
+.carousel-caption {
+    max-width: 80%;
 }
 
-.shop-now-button {
+.call-to-action {
+    background: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    border: solid 2px #FF0100;
+    border-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    text-align: left;
+    left: 0;
+    bottom: 0;
+}
+
+.cta-btn {
     background: #FF0100;
     color: white;
+    border: solid 1px #000;
+}
+
+.sm-cta-btn {
+    width: fit-content;
+    position: absolute;
+    text-align: left;
+    left: 0;
+    bottom: 0;
 }
 
 .btn-red {
@@ -71,13 +84,14 @@ body {
     color: white;
 }
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #FF0100;
+.cta-btn:hover,
+.cta-btn:active,
+.cta-btn:focus,
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus {
+    border: #000;
+    background: #a70000;
     color: white;
 }
 
@@ -109,11 +123,6 @@ body {
         height: 42rem;
     }
 
-    .carousel-container {
-        padding-bottom: 100px;
-        padding-left: 100px;
-    }
-
 
 }
 
@@ -130,4 +139,9 @@ body {
     .header-container {
         padding-top: 164px;
     }
+
+    .carousel {
+        margin-top: 1.5rem;
+    }
+
 }
