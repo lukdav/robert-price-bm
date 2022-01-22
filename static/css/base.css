@@ -20,7 +20,7 @@ body {
 }
 
 .header-container {
-    padding-top: 132px;
+    padding-top: 80px;
 }
 
 .logo-img {
@@ -39,7 +39,7 @@ body {
 /* Carousel container */
 
 .carousel {
-    max-width: 2000px;
+    max-width: 1800px;
 }
 
 .carousel-item {
@@ -113,16 +113,28 @@ body {
 
 /* -------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens */
+/* Very large container on xxl screens */
+@media (min-width: 1800px) {
+
+    .carousel-item {
+        height: 62rem !important;
+    }
+    
+    .carousel {
+        margin-top: 1.5rem;
+    }
+
+}
+
+/* Large container on xl screens */
 @media (min-width: 1200px) {
     .container {
         max-width: 80%;
     }
 
     .carousel-item {
-        height: 42rem;
+        height: 52rem !important;
     }
-
 
 }
 
@@ -137,11 +149,25 @@ body {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 164px !important;
     }
 
-    .carousel {
-        margin-top: 1.5rem;
+    .carousel-item {
+        height: 42rem !important;
     }
+}
 
+/* spaced top navbar only on small and up */
+@media (min-width: 576px) {
+
+    .header-container {
+        padding-top: 116px;
+    }
+}
+
+/* spaced top navbar only on small and up */
+@media (min-width: 420px) {
+    .list-inline-item a {
+        padding: 8px 16px !important;
+    }
 }
