@@ -5,7 +5,7 @@ html {
 body {
     background: #7E7E7E;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: calc(100vh - 80px);
     color: #000;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -39,17 +39,28 @@ body {
 /* Carousel container */
 
 .carousel {
-    max-width: 1800px;
+    max-width: 1200px;
+    height: auto;
+    max-height: calc(100vh - 80px);
 }
 
-.carousel-item {
+.carousel-item img {
     height: auto;
+    max-height: calc(100vh - 80px);
+    object-fit: cover;
+}
+
+
+.carousel-item {
     color: white;
     position: relative;
 }
 
 .carousel-caption {
     max-width: 80%;
+    margin-right: 0;
+    left: 0;
+    right: 0;
 }
 
 .call-to-action {
@@ -101,7 +112,7 @@ body {
     border: 1px solid #FF0100 !important;
 }
 
-/* Overlay */
+/* ------------------------------ Overlay */
 
 .overlay {
     height: 100%;
@@ -113,6 +124,8 @@ body {
     z-index: -1;
 }
 
+/* ------------------------------ Products */
+
 .product-img {
     height: 15rem;
     object-fit: contain;
@@ -123,14 +136,10 @@ body {
 }
 
 
-/* -------------------------------- Media Queries */
+/* ------------------------------ Media Queries */
 
-/* Very large container on xxl screens */
+/* xxl screens */
 @media (min-width: 1800px) {
-
-    .carousel-item {
-        height: 62rem !important;
-    }
     
     .carousel {
         margin-top: 1.5rem;
@@ -138,19 +147,15 @@ body {
 
 }
 
-/* Large container on xl screens */
+/* XL screens */
 @media (min-width: 1200px) {
     .container {
         max-width: 80%;
     }
 
-    .carousel-item {
-        height: 52rem !important;
-    }
-
 }
 
-/* fixed top navbar only on medium and up */
+/* Large screens */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -163,17 +168,33 @@ body {
     .header-container {
         padding-top: 164px !important;
     }
+
+    .carousel {
+        max-height: calc(100vh - 164px) !important;
+    }
+
+    .carousel-item img {
+        max-height: calc(100vh - 164px) !important;
+    }
 }
 
-/* spaced top navbar only on small and up */
+/* Small screens */
 @media (min-width: 576px) {
 
     .header-container {
         padding-top: 116px;
     }
+
+    .carousel {
+        max-height: calc(100vh - 116px);
+    }
+
+    .carousel-item img {
+        height: auto;
+        max-height: calc(100vh - 116px);
+    }
 }
 
-/* spaced top navbar only on small and up */
 @media (min-width: 420px) {
     .list-inline-item a {
         padding: 8px 16px !important;

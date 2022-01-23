@@ -10,15 +10,15 @@
 {% endblock %}
 
 {% block content %}
-    <div id="carouselWelcome" class="carousel slide carousel-fade mx-auto rounded-2" data-ride="carousel">
+    <div id="carouselWelcome" class="carousel slide carousel-fade mx-auto rounded-2" data-ride="carousel" height="300" width="400">
         <ol class="carousel-indicators">
             <li class="active" data-target="#carouselWelcome" data-slide-to="0"></li>
             <li data-target="#carouselWelcome" data-slide-to="1"></li>
             <li data-target="#carouselWelcome" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/media/bb-stack.jpg" class="d-block w-100" alt="Bulk bags">
+            <!-- <div class="carousel-item active">
+                <img src="/media/bb-stack.jpg" class="d-block mx-auto" alt="Bulk bags">
                 <a href="{% url 'products' %}" class="carousel-caption cta-btn sm-cta-btn d-sm-none btn btn-sm rounded-2 text-uppercase p-2 mb-4 mx-auto">Shop Now</a>
                 <div class="carousel-caption call-to-action d-none d-sm-block mb-5 pt-0 mx-auto">
                     <h2 class="p-2 ml-4">Everything you need, in one place</h2>
@@ -26,19 +26,35 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/media/flags.jpg" class="d-block w-100" alt="Bulk bags">
+                <img src="/media/flags.jpg" class="d-block mx-auto" alt="Flags">
                 <a href="" class="carousel-caption cta-btn sm-cta-btn d-sm-none btn btn-sm rounded-2 text-uppercase p-2 mb-4 mx-auto">Sign Up</a>
                 <div class="carousel-caption call-to-action d-none d-sm-block mb-5 pt-0 mx-auto">
                     <h2 class="p-2 ml-4">Great discounts and deals for account holders</h2>
                     <a href="" class="cta-btn btn btn-lg rounded-2 text-uppercase p-2 ml-4">Sign Up</a>
                 </div>
+            </div> -->
+            <div class="carousel-item active">
+                <img src="/media/bb-stack.jpg" class="d-block mx-auto w-100" alt="Bulk bags">
+                <a href="{% url 'products' %}" class="carousel-caption cta-btn sm-cta-btn d-sm-none btn btn-sm rounded-2 text-uppercase p-2 mb-4 mx-auto">Shop Now</a>
+                <div class="carousel-caption call-to-action d-none d-sm-block mb-5 pt-0 mx-auto">
+                    <h2 class="p-2">Everything you need, in one place</h2>
+                    <a href="{% url 'products' %}" class="cta-btn btn btn-lg rounded-2 text-uppercase p-2">Shop Now</a>
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="/media/truck.jpg" class="d-block w-100" alt="Bulk bags">
+                <img src="/media/flags.jpg" class="d-block mx-auto w-100" alt="Flags">
+                <a href="" class="carousel-caption cta-btn sm-cta-btn d-sm-none btn btn-sm rounded-2 text-uppercase p-2 mb-4 mx-auto">Sign Up</a>
+                <div class="carousel-caption call-to-action d-none d-sm-block mb-5 pt-0 mx-auto">
+                    <h2 class="p-2">Great discounts and deals for account holders</h2>
+                    <a href="" class="cta-btn btn btn-lg rounded-2 text-uppercase p-2">Sign Up</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/media/truck.jpg" class="d-block mx-auto w-100" alt="Truck">
                 <a href="" class="carousel-caption cta-btn sm-cta-btn d-sm-none btn btn-sm rounded-2 text-uppercase p-2 mb-4 mx-auto">View Deals</a>
                 <div class="carousel-caption call-to-action d-none d-sm-block mb-5 pt-0 mx-auto">
-                    <h2 class="p-2 ml-4">Amazing deals on the best products for your project</h2>
-                    <a href="" class="cta-btn btn btn-lg rounded-2 text-uppercase p-2 ml-4">View Deals</a>
+                    <h2 class="p-2">Amazing deals on the best products for your project</h2>
+                    <a href="" class="cta-btn btn btn-lg rounded-2 text-uppercase p-2">View Deals</a>
                 </div>
             </div>
         </div>
