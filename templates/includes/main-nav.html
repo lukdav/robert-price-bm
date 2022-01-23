@@ -17,10 +17,10 @@
                 Building Materials
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="building-link">
-                <a href="" class="dropdown-item">Sand &amp; Aggregates</a>
-                <a href="" class="dropdown-item">Bricks &amp; Blocks</a>
-                <a href="" class="dropdown-item">Cement &amp; Plaster</a>
-                <a href="" class="dropdown-item">All Building Materials</a>
+                <a href="{% url 'products' %}?category=sand_aggregates" class="dropdown-item">Sand &amp; Aggregates</a>
+                <a href="{% url 'products' %}?category=bricks_blocks" class="dropdown-item">Bricks &amp; Blocks</a>
+                <a href="{% url 'products' %}?category=cement_plaster" class="dropdown-item">Cement &amp; Plaster</a>
+                <a href="{% url 'products' %}?category=sand_aggregates,bricks_blocks,cement_plaster" class="dropdown-item">All Building Materials</a>
             </div>
         </li>
 
@@ -29,10 +29,10 @@
                 Timber
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="timber-link">
-                <a href="" class="dropdown-item">Sawn Timber</a>
-                <a href="" class="dropdown-item">Prepared Timber</a>
-                <a href="" class="dropdown-item">Sheet Materials</a>
-                <a href="" class="dropdown-item">All Timber</a>
+                <a href="{% url 'products' %}?category=sawn_timber" class="dropdown-item">Sawn Timber</a>
+                <a href="{% url 'products' %}?category=prepared_timber" class="dropdown-item">Prepared Timber</a>
+                <a href="{% url 'products' %}?category=sheet_materials" class="dropdown-item">Sheet Materials</a>
+                <a href="{% url 'products' %}?category=swan_timber,prepared_timber,sheet_materials" class="dropdown-item">All Timber</a>
             </div>
         </li>
 
@@ -41,10 +41,10 @@
                 Roofing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="roofing-link">
-                <a href="" class="dropdown-item">Slates &amp; Tiles</a>
-                <a href="" class="dropdown-item">Corrugated Sheets</a>
-                <a href="" class="dropdown-item">Lead Products</a>
-                <a href="" class="dropdown-item">All Roofing</a>
+                <a href="{% url 'products' %}?category=slates_tiles" class="dropdown-item">Slates &amp; Tiles</a>
+                <a href="{% url 'products' %}?category=guttering" class="dropdown-item">Guttering</a>
+                <a href="{% url 'products' %}?category=lead_products" class="dropdown-item">Lead Products</a>
+                <a href="{% url 'products' %}?category=slates_tiles,corrugated_sheets,lead_products" class="dropdown-item">All Roofing</a>
             </div>
         </li>
 
@@ -53,10 +53,10 @@
                 Tools
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="tools-link">
-                <a href="" class="dropdown-item">Power Tools</a>
-                <a href="" class="dropdown-item">Hand Tools</a>
-                <a href="" class="dropdown-item">Building Equipment</a>
-                <a href="" class="dropdown-item">All Tools</a>
+                <a href="{% url 'products' %}?category=power_tools" class="dropdown-item">Power Tools</a>
+                <a href="{% url 'products' %}?category=hand_tools" class="dropdown-item">Hand Tools</a>
+                <a href="{% url 'products' %}?category=building_equipment" class="dropdown-item">Building Equipment</a>
+                <a href="{% url 'products' %}?category=power_tools,hand_tools,building_equipment" class="dropdown-item">All Tools</a>
             </div>
         </li>
 
@@ -65,10 +65,10 @@
                 Plumbing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="plumbing-link">
-                <a href="" class="dropdown-item">Copper Pipes &amp; Fittings</a>
-                <a href="" class="dropdown-item">Plastic Pipes &amp; Fittings</a>
-                <a href="" class="dropdown-item">Brass Products</a>
-                <a href="" class="dropdown-item">All Plumbing</a>
+                <a href="{% url 'products' %}?category=copper_pipes" class="dropdown-item">Copper Pipes &amp; Fittings</a>
+                <a href="{% url 'products' %}?category=plastic_pipes" class="dropdown-item">Plastic Pipes &amp; Fittings</a>
+                <a href="{% url 'products' %}?category=brass_products" class="dropdown-item">Brass Products</a>
+                <a href="{% url 'products' %}?category=copper_pipes,plastic_pipes,brass_products" class="dropdown-item">All Plumbing</a>
             </div>
         </li>
     </ul>
