@@ -97,6 +97,11 @@ body {
     color: white;
 }
 
+a.category-badge > span.badge:hover {
+    background: #a70000 !important;
+    color: #fff !important;
+}
+
 .text-red {
     color: #FF0100 !important;
 }
