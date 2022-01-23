@@ -114,9 +114,12 @@ body {
 }
 
 .product-img {
-    object-fit: cover;
-    height: 12rem;
-    overflow: hidden;
+    height: 15rem;
+    object-fit: contain;
+}
+
+.card-body {
+    min-height: 68px;
 }
 
 
