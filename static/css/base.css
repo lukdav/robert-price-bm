@@ -102,6 +102,19 @@ a.category-badge > span.badge:hover {
     color: #fff !important;
 }
 
+.btt-btn {
+    width: fit-content;
+    height: fit-content;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    font-size: 1.5rem;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
 .text-red {
     color: #FF0100 !important;
 }
