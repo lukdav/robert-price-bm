@@ -83,12 +83,23 @@ body {
     border: solid 1px #000;
 }
 
+.btn-outline-red {
+    background: white;
+    color: #FF0100 !important;
+    border: solid 1px #FF0100;
+}
+
+.btn-outline-red:hover,
+.btn-outline-red:active,
+.btn-outline-red:focus {
+    background: #a70000;
+    color: white !important;
+}
+
+
 .btn-red:hover,
 .btn-red:active,
-.btn-red:focus,
-.red-red:hover,
-.red-red:active,
-.red-red:focus {
+.btn-red:focus {
     background: #a70000;
     color: white;
 }
