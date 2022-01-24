@@ -118,8 +118,19 @@ a.category-badge > span.badge:hover {
     font-size: 1.5rem;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item {
     cursor: pointer;
+}
+
+.update-link:hover,
+.update-link:active,
+.update-link:focus,
+.remove-item:hover,
+.remove-item:active,
+.remove-item:focus {
+    color: #a70000 !important;
 }
 
 /* ------------------------------ Text */
