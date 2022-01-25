@@ -198,38 +198,11 @@ a.category-badge > span.badge:hover {
 }
 
 .bag-notification-wrapper {
-    height: 100px;
+    height: 150px;
     overflow-x: hidden;
     overflow-y: auto;
 }
 
-/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
-.arrow-down {
-    width: 0; 
-    height: 0; 
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    
-    border-top: 20px solid #f00;
-  }
-
-/* ------------------------------- bootstrap colors */
-
-.arrow-success {
-    border-top-color: #28a745 !important;
-}
-
-.arrow-danger {
-    border-top-color: #dc3545 !important;
-}
-
-.arrow-warning {
-    border-top-color: #ffc107 !important;
-}
-
-.arrow-info {
-    border-top-color: #17a2b8 !important;
-}
 
 /* ------------------------------ Media Queries */
 

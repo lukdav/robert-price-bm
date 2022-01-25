@@ -1,5 +1,4 @@
 <div role="alert" aria-live="assertive" aria-atomic="true" class="toast custom-toast rounded-2 border-top-2" data-autohide="false">
-  <div class="arrow-down arrow-success"></div>
   <div class="w-100 toast-capper bg-success"></div>
   
   <div class="toast-header text-black bg-white">
@@ -20,20 +19,29 @@
   {% if grand_total %}
     <p class="logo-font bg-white text-red py-1">Your Bag ({{ product_count }})</p>
     <div class="bag-notification-wrapper">
-      {% for item in bag_items %}
-        <div class="row">
-          <div class="col-4 my-1">
-              <img class="w-100" src="{{ item.product.image.url }}">
-          </div>
-          <div class="col-8">
-              <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                {% if item.product.has_sizes %}
-                  <p class="my-0 small">Size: {{ item.size }}</p>
-                {% endif %}
-              <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
-          </div>
-        </div>
-      {% endfor %}
+        {% for item in bag_items %}
+
+              <div class="row">
+                  <div class="col-4 my-1">
+                      <img class="w-100" src="{{ item.product.image.url }}">
+                  </div>
+
+                  <div class="col-8">
+                    <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                      <div class="row">
+                        <div class="col-6">
+                          {% if item.product.has_sizes %}
+                            <p class="my-0 small">Size: {{ item.size }}</p>
+                          {% endif %}
+                        </div>
+                        <div class="col-6">
+                          <p class="my-0 pr-3 small text-muted float-right">Qty: {{ item.quantity }}</p>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+
+        {% endfor %}
     </div>
 
     <div class="row">
