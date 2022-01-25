@@ -113,8 +113,8 @@
                                         </span>
                                         <span class="text-uppercase">Keep Shopping</span>
                                     </a>
-                                    <a href="" class="btn btn-red rounded-2 mt-5">
-                                        <span class="text-uppercase">Checkout  </span>
+                                    <a href="{% url 'checkout' %}" class="btn btn-red rounded-2 mt-5">
+                                        <span class="text-uppercase">Checkout</span>
                                         <span class="icon">
                                             <i class="fas fa-credit-card"></i>
                                         </span>
@@ -124,7 +124,7 @@
                         </table>
                     </div>
                 {% else %}
-                    <p class="lead mb-5">The is nothing in your shopping bag.</p>
+                    <p class="lead mb-5">There is nothing in your shopping bag.</p>
                     <a href="{% url 'products' %}" class="btn-red btn btn-lg rounded-2 text-uppercase p-2">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>
