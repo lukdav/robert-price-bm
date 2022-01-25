@@ -20,20 +20,22 @@ def checkout(request):
     current_bag = bag_contents(request)
     total = current_bag['grand_total']
     stripe_total = round(total * 100)
-    stripe.api_kep = stripe_secret_key
+    stripe.api_key = stripe_secret_key
     intent = stripe.PaymentIntent.create(
         amount=stripe_total,
         currency=settings.STRIPE_CURRENCY,
     )
 
-    print(intent)
-
     order_form = OrderForm()
+
+    if not stripe_public_key:
+        messages.warning(request, 'Stripe public key is missing from the environment!')
+
     template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
-        'stripe_public_key': 'pk_test_51KFmbgD3SFldYSV5AWapWc9Ik9mupEk0SYhRUN08WfzSyeikQtd1x1Qsv7cFwX8pi5FoYJBDsmr9OGvMEbejv8qF00BDwvoSoz',
-        'client_secret': 'test client secret',
+        'stripe_public_key': stripe_public_key,
+        'client_secret': intent.client_secret,
     }
 
     return render(request, template, context)
