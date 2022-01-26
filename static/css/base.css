@@ -143,6 +143,10 @@ a.category-badge > span.badge:hover {
     color: #000 !important;
 }
 
+.text-white {
+    color: #fff !important;
+}
+
 .bg-black {
     background-color: #000 !important;
 }
