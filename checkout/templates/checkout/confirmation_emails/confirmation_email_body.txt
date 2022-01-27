@@ -1,0 +1,23 @@
+Hello {{ order.full_name }},
+
+This is confirmation of your order from Robert Price Builders' Merchants. Your order information is below:
+
+Order Number: {{ order.order_number }}
+Order Date: {{ order.date }}
+
+Order Total: ${{ order.order_total }}
+Delivery: ${{ order.delivery_cost }}
+Grand Total: ${{ order.grand_total }}
+
+Your order will be delivered to:
+{{ order.street_address1 }},
+{{ order.town_or_city }},
+{{ order.country }}.
+
+If you have any questions, please call us on {{ contact_email }}.
+
+Thank you for your order!
+
+Kind regards,
+
+Robert Price Builders' Merchants
