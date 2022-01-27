@@ -34,7 +34,49 @@
             </div>
             <div class="col-12 col-lg-6">
                 <p class="text-muted">Order History</p>
-                {{ orders }}
+                {% if orders %}
+                    <div class="table-responsive order_history">
+                        <table class="table table-sm table-borderless">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Order Number</th>
+                                    <th>Items</th>
+                                    <th>Order Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for order in orders %}
+                                    <tr>
+                                        <td>{{ order.date }}</td>
+                                        <td>
+                                            <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}">
+                                                {{ order.order_number|truncatechars:8 }}
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <ul class="list-unstyled">
+                                                {% for item in order.lineitems.all %}
+                                                    <li>
+                                                        {{ item.quantity }} x 
+                                                            {% if item.has_sizes %}
+                                                                {{ item.product.size }} 
+                                                            {% endif %}
+                                                        {{ item.product.name }}
+                                                        <hr class="mt-1 mb-1 w-50">
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        </td>
+                                        <td>£{{ order.grand_total }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                {% else %}
+                    <p>You don't have any previous orders.</p>
+                {% endif %}
             </div>
         </div>
     </div>
