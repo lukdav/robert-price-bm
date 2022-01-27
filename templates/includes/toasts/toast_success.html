@@ -16,7 +16,7 @@
       </div>
   </div>
   
-  {% if grand_total %}
+  {% if grand_total and not on_profile_page %}
     <p class="logo-font bg-white text-red py-1">Your Bag ({{ product_count }})</p>
     <div class="bag-notification-wrapper">
         {% for item in bag_items %}
@@ -51,7 +51,7 @@
             <span class="float-right">£{{ total|floatformat:2 }}</span>
         </p></strong>
         {% if free_delivery_delta > 0 %}
-          {% if free_delivery_delta > 40 %}
+          {% if free_delivery_delta > half_free_delivery_threshold %}
             <p class="mb-1 bg-info shadow-sm text-black text-center">
                 Free delivery is just <strong>£{{ free_delivery_threshold|floatformat:2 }}</strong>!
             </p>
