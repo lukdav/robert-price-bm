@@ -188,6 +188,34 @@ a.category-badge > span.badge:hover {
     overflow: hidden;
 }
 
+/* ------------------------------ Product Form */
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox .custom-control-label::before {
+    border-radius: 2;
+    border-color: #FF0100;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #FF0100;
+    border-color: #FF0100;
+    border-radius: 2;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
