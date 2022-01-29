@@ -71,38 +71,38 @@ Products
 
 ### Existing Features
 
-Navigation bar:
+**Navigation bar:**
 - A regular user will see links to the Home Page (the logo), the categories and sub-categories, the user's account (to register/login/logout or to view account page) and their shopping bag.
 - An authorised user with superuser access will also have access to the Product Management link to add a product. 
 
-The Home page:
+**The Home page:**
 - A carousel providing three links to the shopping/products section, the account section and to view the current deals.
 - The remainder of the home page will give a number of links for individual item deals.
 
-The Register page:
+**The Register page:**
 - Contains a form to create a new account.
 - Form input fields include a Username input and double inputs for email and password, with a button to submit.
 
-The Login page:
+**The Login page:**
 - Contains a form to sign in to an existing account.
 - Form input fields include Username and Password, with buttons to go to the home page or to submit.
 - Acheckbox is provided to Remember the user.
 - A link to the Register page is provided.
 - A link to change the password is given for account holders who have forgotten.
 
-The User's Account page:
+**The User's Account page:**
 - A user's account page.
 - Provides a saved delivery address and the option to update datails. 
 - A table providing a list of previous orders - including the order date, order number, list of items bought and the total cost.
 
-The Products page:
+**The Products page:**
 - Contains individual cards for each product.
 - Each product card displays the product image, name, price and rating.
 - Clicking on a product card will take the user to the Product Detail page.
 - Authorised superusers will see edit and delete buttons on each product card.
 - A back to top button assists the user to navigate the website, which will be more usefull as more products are added.
 
-The Product Detail page:
+**The Product Detail page:**
 - Specific page for each product.
 - Provides an image, name, price, rating and description description.
 - An adjustable quantity input with plus and minus buttons.
@@ -110,28 +110,33 @@ The Product Detail page:
 - A button to add quantity of the selcted product to the shopping bag.
 <!-- - The page also includes a rating and a button in order to Upvote the game, incrementing its rating by one. -->
 
-The Add Product page:
+**The Add Product page:**
 - Superuser access only.
 - Contains a form to submit a new product.
 - Form input fields include a category selector with inputs for SKU, name, description, 'has sizes' selector, price, rating and an image uploader.
 - A submit button will add the product, before redirecting the user to the new Product Detail Page.
 - A cancel button returns the user to the Products page.
 
-The Edit Product page:
+**The Edit Product page:**
 - Superuser access only.
 - Contains a form to edit an existing product.
 - Form input fields are prepopulated with the product's details. They include a category selector with inputs for SKU, name, description, 'has sizes' selector, price, rating and an image uploader.
 - A submit button will update the product, before redirecting the user to that Product Detail Page.
 - A cancel button returns the user to the Products page.
 
-The Shopping Bag page:
+**The Shopping Bag page:**
 - Contains a table with a list of products in the shopping bag.
 - Each product item in the list has displays an image, name, size, sku, adjustable quantity input and a reposonsive item subtotal.
 - Below the table a bag total, delivery cost and grand total is calculated.
 - Two buttons below provide links to keep shopping (return to products page), and to progress to the checkout, which takes the customer to the checkout page.
 
-The Pheckout page:
-
+**The Checkout page:**
+- Provides a form for the user to enter their personal details.
+- Certain fields of the form are required.
+- Unregistered users are encouraged to create an account or to sign in to save delivery details. Whereas registered account holders will be given the option toi save delivery details.
+- Users logged in to accounts may have previously opted to save their delivery details, in which case those address fields are prepopulated.
+- An order summary is shown as a final check; it contains the product image, name, size, quantity and a subtotal price.
+- Finally the order total is calculated, delivery charge is added (depending on amount spent) and the grand total is given below.
 
 
 <!-- The Database (MongoDB):
@@ -485,11 +490,11 @@ class MediaStorage(S3Boto3Storage):
 5. Log in to Stripe account. Click 'Developers' and then API Keys from the menu on the left.
 6. Copy the 'Publishable Key' and 'Secret Key' values and add them to Config Vars on Heroku, under STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY respectively.
 7. Go to Webhooks on the left menu and click on 'Add Endpoint'.
-8. Enter the URL as follows:
+8. Enter the Endpoint URL as follows:
 ```
 https://robert-price.herokuapp.com/checkout/wh/
 ```
-9. Select to receive all events and 'Add Endpoint'.
+9. Select 'receive all events' and then 'Add Endpoint'.
 10. Reveal webhook 'Signing Secret' and add to Heroku Config Vars, under STRIPE_WH_SECRET. 
 
 
@@ -505,6 +510,11 @@ To build this website, I followed the tutorial and mini Boutique Ado project aga
 
 A special thanks must go to Robert Price Builders' Merchants for allowing me to use their data, product images and logos, along with their branding style. The existing website was used as inspiration of style and fuction in order to develope an e-commerce aspect to their website.
 
+Read Me example: [mitchdavenport88](https://github.com/mitchdavenport88/hop_shop/blob/main/README.md)
+
 The many tutors, users and other students on slack who are always willing to assist in solving any issue presented.
 
-Finally I'd like to acknowledge the help provided by my tutor Brian who has assisted and guided me through the Web Development Course.
+Finally I'd like to acknowledge the help provided by my tutor Brian Macharia who has assisted and guided me through the Web Development Course.
+
+## Disclaimer
+This site has been made only for educational purposes.
