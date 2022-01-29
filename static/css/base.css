@@ -294,6 +294,19 @@ a.category-badge > span.badge:hover {
 	color: #FF0100;
 }
 
+/* ------------------------------ Rating System */
+
+
+.rating {
+    width: 180px;
+    font-size: 1.5rem;
+ }
+ 
+ .rating__star {
+    cursor: pointer;
+    color: #FF0100;
+ }
+
 
 /* ------------------------------ Media Queries */
 

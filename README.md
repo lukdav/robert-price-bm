@@ -512,6 +512,8 @@ A special thanks must go to Robert Price Builders' Merchants for allowing me to 
 
 Read Me example: [mitchdavenport88](https://github.com/mitchdavenport88/hop_shop/blob/main/README.md)
 
+The code for the rating system was found at [Leonardo Schmitt](https://dev.to/leonardoschmittk/how-to-make-a-star-rating-with-js-36d3)
+
 The many tutors, users and other students on slack who are always willing to assist in solving any issue presented.
 
 Finally I'd like to acknowledge the help provided by my tutor Brian Macharia who has assisted and guided me through the Web Development Course.
