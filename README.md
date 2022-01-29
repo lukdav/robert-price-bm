@@ -334,7 +334,7 @@ Further reading and troubleshooting on cloning a repository can be found [here](
 1. Log in to Heroku.
 2. Create a new app by clicking 'new' and selecting 'create new app' in the drop-down.
 3. Give the app a unique name and select the closest region.
-4. Clicked the create app button where I was directed to the dashboard for the new app.
+4. Click the create app button.
 5. Add Heroku Postgres by searching in the resources tab; selecting the free plan.
 6. Install dj_database_url and psycopg2-binary to Gitpod using pip3 install.
 7. Run ```pip3 freeze requirements.txt``` to store the apps requirements.
@@ -354,7 +354,22 @@ Returning the original database if not.
 python3 manage.py loaddata categories.json
 python3 manage.py loaddata products.json
 ```
+12. Create a superuser with ```python3 manage.py createsuperuser``` and filling out the required information.
+13. Run ```pip3 install gunicorn```.
+14. Freeze requirements again.
+15. Create a Procfile and add ```web: gunicorn robert_price_bm.wsgi:application```
+16. Sign in to Heroku with ```heroku login -i``` in the terminal.
 
+17. Type ```heroku config:set COLLECTSTATIC=1 --app robert-price``` to temporarily disable static files from being collected by Heroku.
+18. Add ```'robert-price.herokuapp.com'``` and ```'localhost'``` to ALLOWED_HOSTS in settings.py.
+19. Add and commit changes, pushing them to Github.
+20. Initialize git remote with ```heroku git:remote -a robert-price``` and push with ```git push heroku main``` 
+21. On the Heroku page, click the deploy tab and then connect to GitHub.
+22. Search for robert-price-bm repository and connect.
+23. Select 'Enable Automatic Deploys'.
+24. In 'Config Vars' under the settings tab, set a SECRET_KEY variable (generated online):
+25. Add ```SECRET_KEY = os.environ.get('SECRET_KEY', '')``` to settings.py.
+26. Set ```DEBUG = 'DEVELOPMENT' in os.environ``` in settings.py.
 
 
 ## Credits
