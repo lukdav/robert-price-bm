@@ -436,6 +436,11 @@ Copy the Amazon resource name (ARN) from the top of the page.
 5. Add the following statement in settings.py:
 ```
 if 'USE_AWS' in os.environ:
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
+
     AWS_STORAGE_BUCKET_NAME = 'robert-price'
     AWS_S3_REGION_NAME = 'eu-west-2'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
@@ -471,6 +476,21 @@ class MediaStorage(S3Boto3Storage):
 ```
 11. Add all changes, commit and git push for an automatic deployment to Heroku.
 
+
+### Media Files and Stripe
+1. On the S3 dashboard, create a new folder, name it 'media' and 'save'.
+2. In 'media', click 'Upload', then 'Add Files' and select all the product images from their storage file on the computer, click 'Next'.
+3. Under 'Manage Public Permissions', select 'Grant Public Read Access to these Objects'. Click next through to Upload.
+4. From the live site's Django Admin page, authenticate the Admin's email (A login attempt with the email address may be required first).
+5. Log in to Stripe account. Click 'Developers' and then API Keys from the menu on the left.
+6. Copy the 'Publishable Key' and 'Secret Key' values and add them to Config Vars on Heroku, under STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY respectively.
+7. Go to Webhooks on the left menu and click on 'Add Endpoint'.
+8. Enter the URL as follows:
+```
+https://robert-price.herokuapp.com/checkout/wh/
+```
+9. Select to receive all events and 'Add Endpoint'.
+10. Reveal webhook 'Signing Secret' and add to Heroku Config Vars, under STRIPE_WH_SECRET. 
 
 
 ## Credits
