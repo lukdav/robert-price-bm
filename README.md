@@ -124,6 +124,15 @@ The Edit Product page:
 - A submit button will update the product, before redirecting the user to that Product Detail Page.
 - A cancel button returns the user to the Products page.
 
+The Shopping Bag page:
+- Contains a table with a list of products in the shopping bag.
+- Each product item in the list has displays an image, name, size, sku, adjustable quantity input and a reposonsive item subtotal.
+- Below the table a bag total, delivery cost and grand total is calculated.
+- Two buttons below provide links to keep shopping (return to products page), and to progress to the checkout, which takes the customer to the checkout page.
+
+The Pheckout page:
+
+
 
 <!-- The Database (MongoDB):
 - The "never-have-i-ever" database contains three collections: "users", "categories" and "games".
@@ -135,20 +144,25 @@ The Edit Product page:
 
 ### Yet to be Implemented
 
-Categories Pages
-- Instead of all games being displayed on the home page, it would be much better to have individual category pages. This was not realised until the category sections were wired up and the extremely large and unwieldly list is hard to comprehend.
+Sizes
+It would have been desirable to have certain items in various sizes, lengths or thicknesses. The code has been designed to accomodate for items with various sizes, however it was not possible to adjust the product price inline with the size. For this reason all products have been set with no size. If however cetain products come in a variety of sizes with no price difference, then this feature is ready to implement, pending a change in size values as required.
+
+Login:
+- The option of a social media link/login feature would ease the signing up process and have greater potential for data gathering.
 
 Profile Page:
-- Users Details.
+- A possible link to social media.
 
 Delete functionality:
-- A final check on whether the user would like to delete the game or category would be a necessity with implementation, as these buttons may be clicked by mistake.
+- A final check on whether the admin would like to delete the product would be a necessity with implementation, as these buttons may be clicked by mistake, potentially losing important information.
 
-Passwords:
-- A double password input would be desirable, including a method of resetting a password if required.
-
-Game Rating:
+Product Rating:
 - Preventing the user from upvoting multiple times will be essential to make the system fair and representative.
+<!-- - Limiting the value to 5 (a rating as a fraction of 5) -->
+
+Delivery:
+- In a real setting delivery may not be possible for certain products and/or to certain areas.
+- A postcode check would be required before the delivery cost is calculated and granted, for items over a certain weight/size. Smaller items may be posted and would follow the system demonstrated on this website.
 
 ---
 
@@ -277,9 +291,8 @@ Edit Categories Page:
 
 ## Bugs
 
-- The input validation on the Add Game and Edit Game forms for the Game Requirements and Game Rules is not responsive. This has a similar issue that required a JavaScript fix for the Categories form. Further investigation into a fix will be conducted.
-- When adding to the lists for the Game Requirements and Rules Sections, the Enter button has been unable to be linked up with a JavaScript Event Listener. Further investigation will be done to improve the UX.
-- The images show white space on smaller screens. This is due to the shape of the image loaded. A fix could be implemented using CSS or different images.
+- The table layout on the shopping bag page becomes illegible on screens smaller than large. The responsiveness would need adjusting to ensure all items are displayed correctly and clearly.
+- The images were taken directly from the old website. After multiple attempts to resize the images to fit, it was realised that certain images are cropped (presumably to fit the old website). In a real deployment, most images would require new and professional images provided by suppliers or the marketing team.
 
 ## Deployment
 
@@ -317,47 +330,45 @@ To clone this project from GitHub:
 Further reading and troubleshooting on cloning a repository can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ### Deployment to Heroku
-1. Upload files that Heroku requires to run the app by typing:
 
-    ```pip3 freeze --local > requirements.txt``` in the terminal. 
-    
-    Followed by:
+1. Log in to Heroku.
+2. Create a new app by clicking 'new' and selecting 'create new app' in the drop-down.
+3. Give the app a unique name and select the closest region.
+4. Clicked the create app button where I was directed to the dashboard for the new app.
+5. Add Heroku Postgres by searching in the resources tab; selecting the free plan.
+6. Install dj_database_url and psycopg2-binary to Gitpod using pip3 install.
+7. Run ```pip3 freeze requirements.txt``` to store the apps requirements.
+8. Import dj_database_url in settings.py.
+9. Replace the default DATABASE setting with an if statement:
+```
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+```
+Returning the original database if not.
 
-    ```echo web: python app.py > Procfile```
+10. Run migrations using python3 manage.py migrate.
+11. Load the fixtures using:
+```
+python3 manage.py loaddata categories.json
+python3 manage.py loaddata products.json
+```
 
-    Ensure files are pushed to the repository on GitHub.
 
-2. Sign up or log in to the Heroku Website.
-3. Click "Create New App" in the top right corner.
-4. Create a unique App Name, choose a region (Europe) from the dropdown and click "Create App".
-5. Set up Automatic Deployment by "Connecting to GitHub".
-6. Ensure Profile is displayed and enter the repository name. Search and click connect repository to the app.
-7. Click on the Settings tab, followed by "Reveal Config Vars".
-8. Enter the following variables:
-    - IP(0.0.0.0)
-    - PORT(5000)
-    - SECRET_KEY(from env.py file)
-    - MONGO_URI(from MongoDB)
-    - MONGO_DBNAME(never-have-i-ever)
-9. Click back to the Deploy tab. Then Click "Enable Automatic Deploys", followed by "Deploy Branch" (with main selected).
-10. Ensure the "Your app was successfully deployed" message is displayed.
-
----
 
 ## Credits
 
 #### Media
-All images used were found using a Creative Commons Google Image Search and on well known image sites.
-Below is the list of images used and where they were sourced:
-- [Playing Cards](https://pixahive.com/photo/playing-cards-6/)
-- [Drinking Chess](https://www.flickr.com/photos/nadja_robot/6981375/)
-- [Beer Pong](https://www.flickr.com/photos/wolfsavard/3327934768)
-- [Computer Wine](https://www.pxfuel.com/en/free-photo-xphmk)
-- [Classic](https://www.piqsels.com/en/public-domain-photo-ffozx/download)
-- [Dice](https://www.flickr.com/photos/8629918@N06/5239824170/in/photolist-8Z2tb3-6MbK4Q-24fc25r-zk4abF-xvEysr-uJGjr-2m3MBig-89frVB-7t1neg-6GAZZ5-4AuH4o-AZ4ynD-7t5bNw-9krpMS-2hxcoWC-cEHA4N-7QApho-27Bmw6J-4PaMrz-2jghZQ1-6PKLgM-8coawq-WsAT-ahvvww-tFc4L-dLCZr2-ZtHYTV-vAHyy-483J8k-dTHWuF-4AuKdy-qqiwo-9BgLgu-9BdSwr-NF58b4-5ksp8Q-4AuHLs-EGVvoM-7ahFy3-5BVgjp-4AuUhY-9BdSzK-5NB2qu-4AqEip-9BdSxF-d9pRGh-adcoR-4AuUYC-4AuTBh-JSSGf2 )
+All images used can be found on the existing Robert Price Builds' Merchants [website](https://www.robert-price.co.uk/). Permission to use all images was granted by Robert Price Builders' Merchants.
 
 ---
 
 ## Acknowledgements
-To build this website, I followed the tutorial and mini project again and feel that it shows a close resemblance to the project. Further iteration and a greater effort will be made to create a more visually unique website. For this project it was felt the Python, Flash, Jinja and MongoDB was of greater importance to show my understanding of the content of this module.
-With further research of Drinking Games for this project the [Drinking Game Zone](https://drinkinggamezone.com/) website gave further inspiration.
+To build this website, I followed the tutorial and mini Boutique Ado project again and feel that it shows a close resemblance to the project. Further iteration and a greater effort will be made to create a more visually unique website. For this project it was felt the Python, Jinja, Stripe and database usage was of greater importance to show my understanding of the content of this module.
+
+A special thanks must go to Robert Price Builders' Merchants for allowing me to use their data, product images and logos, along with their branding style. The existing website was used as inspiration of style and fuction in order to develope an e-commerce aspect to their website.
+
+The many tutors, users and other students on slack who are always willing to assist in solving any issue presented.
+
+Finally I'd like to acknowledge the help provided by my tutor Brian who has assisted and guided me through the Web Development Course.
