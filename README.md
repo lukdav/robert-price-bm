@@ -372,6 +372,43 @@ python3 manage.py loaddata products.json
 26. Set ```DEBUG = 'DEVELOPMENT' in os.environ``` in settings.py.
 
 
+### Setting up AWS
+
+1. Create an [AWS account](https://aws.amazon.com/).
+2. Go to the AWS management console.
+3. In find services', search for 'S3' and select it.
+4. Create a new bucket, giving it a name and selecting the closest region.
+5. Uncheck 'Block all public access' acknowledging warning of the publicity, click create bucket button.
+6. In the bucket's properties tab, select 'static website hosting' and then in 'use this bucket to host a website' type in 'index.html' and 'error.html' and save.
+7. In the CORS configuration section on the permissions tab type:
+```
+[
+  {
+      "AllowedHeaders": [
+          "Authorization"
+      ],
+      "AllowedMethods": [
+          "GET"
+      ],
+      "AllowedOrigins": [
+          "*"
+      ],
+      "ExposeHeaders": []
+  }
+]
+```
+8. For the buckets permissions policy:
+9. Select 'policy generator' on the permissions tab.
+Copy the Amazon resource name (ARN) from the top of the page.
+10. Select 'S3 Bucket Policy' in type of policy.
+11. Allow all principals with '*'.
+12. Select  'GetObject' in Actions.
+13. Copy the Amazon Resource Name or ARN (from the previous tab) into the labelled box.
+14. Click 'Add Statement' followed by 'Generate Policy" and copy the policy into the buckey policy.
+15. Add /* on to the end of the 'Resource' key.
+16. Click save.
+17. In the access control list tab, set the public access' list objects to everyone.
+
 ## Credits
 
 #### Media
