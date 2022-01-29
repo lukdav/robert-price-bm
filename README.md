@@ -409,6 +409,25 @@ Copy the Amazon resource name (ARN) from the top of the page.
 16. Click save.
 17. In the access control list tab, set the public access' list objects to everyone.
 
+
+### Setting up IAM (Identity and Access Management) 
+
+1. In the AWS management console, search for, and select 'IAM'.
+2. Select 'Groups', then 'Create New Group' and name the new group.
+3. Select 'Policies' and then 'Create Policy'.
+4. On the JSON tab, select 'import managed policy', search for 'S3' and 'AmazonS3FullAccess' policy. Click 'Import'.
+5. Copy the ARN (from the S3 bucket policy) into the 'Resources' key of the JSON file in a list. 
+6. Copy the ARN in a second time, adding ```/*``` on to the end. 
+7. Select 'Review policy', give it a name and a description. Then click 'Create Policy'.
+8. Go back to 'Groups' and select the group previously created.
+9. Under the permissions tab click 'Attach Policy'.
+10. Select the policy created and select 'Attach Policy'.
+11. Select 'Users' and then the 'Add User' button.
+12. Create a user, giving a name with 'Programatic Access' and click 'Next: Permissions'.
+13. Select the group with the policy attached and click 'Create User'.
+14. Download the .csv file.
+
+
 ## Credits
 
 #### Media
