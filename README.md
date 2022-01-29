@@ -428,6 +428,51 @@ Copy the Amazon resource name (ARN) from the top of the page.
 14. Download the .csv file.
 
 
+### Connecting Django to S3
+1. Install boto3 with  ```pip3 install boto3```.
+2. Install django-storages with ```pip3 install django-storages```.
+3. Run ```pip3 freeze > requirements.txt```.
+4. Add 'storages' to the apps list in settings.py.
+5. Add the following statement in settings.py:
+```
+if 'USE_AWS' in os.environ:
+    AWS_STORAGE_BUCKET_NAME = 'robert-price'
+    AWS_S3_REGION_NAME = 'eu-west-2'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY_ID = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+```
+
+6. Add the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY to Config Vars in Heroku (from .csv file).
+7. Add USE_AWS variable to Config Vars with a value of 'True'.
+8. Remove the DISABLE_COLLECTSTATIC variable.
+9. Create a file called custom_storages.py and add:
+```
+from django.conf import settings
+from storages.backends.s3boto3 import S3Boto3Storage
+
+
+class StaticStorage(S3Boto3Storage):
+    location = settings.STATICFILES_LOCATION
+
+
+class MediaStorage(S3Boto3Storage):
+    location = settings.MEDIAFILES_LOCATION
+```
+10. Add the following code to the ```if 'USE_AWS' in os.environ:``` statement:
+```
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'
+    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+```
+11. Add all changes, commit and git push for an automatic deployment to Heroku.
+
+
+
 ## Credits
 
 #### Media
