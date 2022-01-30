@@ -26,18 +26,18 @@
         <div class="row">
             <div class="blog-container col-10 offset-1">
                 <div class="row">
-                    <h3>{{ news_article.title }}</h3>
+                    <h3>{{ article.title }}</h3>
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-10 offset-md-1">
                         <div class="row">
-                            <img class="img-fluid" src="{{ news_article.image.url }}" alt="{{ news_article.title }}">
+                            <img class="img-fluid" src="{{ article.image.url }}" alt="{{ article.title }}">
                         </div>
                         <div class="row">
-                            <small class="text-muted">{{ news_article.date_posted }}</small>
+                            <small class="text-muted">{{ article.date_posted }}</small>
                         </div>
                         <div class="row">
-                            {{ news_article.content }}
+                            {{ article.content }}
                         </div>
                     </div>
                 </div>

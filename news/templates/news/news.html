@@ -30,7 +30,7 @@
                     {% for post in news %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 pb-4">
                             <div class="card h-100 border-0">
-                                <a href="">
+                                <a href="{% url 'news_article' post.slug %}">
                                     <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.title }}">
                                 </a>
                                 <div class="card-body pb-0">
@@ -40,7 +40,7 @@
                                     </div>
                                     <small>{{ post.content|truncatechars:200 }}</small>
                                     <div class="row p-2">
-                                        <a class="btn btn-red btn-sm rounded-2" href="">
+                                        <a class="btn btn-red btn-sm rounded-2" href="{% url 'news_article' post.slug %}">
                                             Read Article
                                         </a>
                                     </div>
