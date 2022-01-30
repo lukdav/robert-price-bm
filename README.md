@@ -60,11 +60,11 @@ As the store manager, I want to:
 
 Wireframes were drawn to assertain how the layout of the website will fit together:
 
-Home Page
+<!-- Home Page
 ![Home Page](     )
 
 Products
-![Products Page]()
+![Products Page]() -->
 
 ---
 
@@ -258,6 +258,7 @@ Products Page:
 - Select 'All Products' from the Navigation bar - ensure all products are displayed.
 - Resize the screen to check the responsiveness of the product page - check the hr element adjusts as required.
 - Select each category from the Product Navigation bar and ensure that the correct products are displayed.
+- Ensure all products are displaying the correct information from the database.
 - Select each option of the sorting selector on every category to ensure the sorting functionality works.
 - Using the Search input in the Top Navbar, search for items/terms to ensure it is functioning and filtering products as required.
 - Ensure the product count is working and accurate for both categories and search queries.
@@ -265,8 +266,40 @@ Products Page:
 - Click on the category links on product cards to ensure the correct filter is applied to the product list.
 - Scroll down the product list and click thhe Top button (in the bottom right corner) to ensure the user returns to the top of the page.
 - Log in as a super user and ensure the 'Edit/Delete' links are visible on each card (and they disappear when superuser is not logged in).
+- Click the Edit button and check whether the user is redirected to the Edit Product page.
+- Click delete (on an added 'test product' item) and ensure item is deleted from the product directory.
 
 Product Detail Page:
+- Resize the screen to check the responsiveness of the product detail page.
+- Ensure all products are displaying the correct information from the database.
+- Click the +/- buttons and make sure the quantity adjusts accordingly.
+- Click the 'Keep Shopping' button to ensure you are returned to the products page.
+- Click the 'Add to Bag' button with different quantities of items to ensure the button works and the correct toast is displayed with accurrate information.
+- Add products to the bag below a value of £40 (half the delivery cost) to ensure the "Free delivery is £80" message is displayed on the toast.
+- Add products to a bag total above £40 (but below £80) to ensure the "Free delivery is just... (a small amount) more" message is displayed on the toast.
+- Add items so the total exceeds £80 and ensure the toast "Free delivery" messages are not displayed on the toast.
+- Ensure all calculations in the toast is correct.
+- Click the 'Checkout' button in the toast and ensure it directs to the Shopping Bag page.
+- Click the Edit button and check whether the user is redirected to the Edit Product page.
+- Click delete (on an added 'test product' item) and ensure item is deleted from the product directory.
+- Click on the ratings stars, one at a time and ensure they respond as needed. (The rating star are not yet functional however and do not affect the product rating as yet).
+
+Shopping Bag Page:
+- Ensure correct and accurate products and product information are present in the shopping bag list.
+- Resizing the page has found a display issue - please see 'Bugs' section below.
+- Click the +/- buttons and make sure the quantity adjusts accordingly, followed by 'update' to ensure the product list is adjusted correctly and the subtotal is recalculated correctly.
+- Click the 'Remove' button to ensure the product is removed for the shopping bag and the correct toasts are displayed.
+- Ensure the bag total, delivery and grand total prices are displayed accurately according to the shopping bag items.
+- Add products to the bag below a value of £40 (half the delivery cost) to ensure the "Free delivery is £80" message is displayed.
+- Add products to a bag total above £40 (but below £80) to ensure the "Free delivery is just... (a small amount) more" message is displayed.
+- Add items so the total exceeds £80 and ensure the toast "Free delivery" messages are not displayed.
+- Click the 'Keep Shopping' button to ensure you are returned to the Products page.
+- Click the 'Checkout' button and ensure it directs to the Checkout page.
+
+Checkout Page:
+- Resize the screen to check the responsiveness of the checkout page.
+- Ensure the shoping bag items are displayed correctly with accurate information.
+- 
 
 
 
