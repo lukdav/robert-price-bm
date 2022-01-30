@@ -37,6 +37,7 @@
             {% if request.user.is_superuser %}
             <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
             {% endif %}
+            <a href="{% url 'blog_posts' %}" class="dropdown-item">Blog</a>
             <a href="{% url 'profile' %}" class="dropdown-item">My Account</a>
             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
             {% else %}
@@ -46,7 +47,7 @@
         </div>
     </li>
     <li class="list-inline-item">
-        <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none p-2"
+        <a class="{% if grand_total %}text-red font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none p-2"
             href="{% url 'view_bag' %}">
             <div class="text-center">
                 <div><i class="fas fa-shopping-cart fa-lg"></i></div>
