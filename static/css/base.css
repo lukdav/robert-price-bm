@@ -316,6 +316,11 @@ a.category-badge > span.badge:hover {
         max-width: 80%;
     }
 
+    .list-inline-item a {
+        padding: 8px 24px !important;
+    }
+    
+
 }
 
 /* Large screens */

@@ -28,36 +28,23 @@
                 <div class="row mt-1 mb-2"></div>
                 <div class="row">
                     {% for post in all_posts %}
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 pb-4">
                             <div class="card h-100 border-0">
-
-
-                                {% if product.image %}
                                 <a href="">
                                     <img class="card-img-top img-fluid" src="{{ post.image.url }}" alt="{{ post.name }}">
                                 </a>
-                                {% else %}
-                                <a href="">
-                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ post.name }}">
-                                </a>
-                                {% endif %}
                                 <div class="card-body pb-0">
                                     <small class="text-muted">{{ post.date_posted }}</small>
                                     <div class="blog-title row">
                                         <p class="lead mb-0 font-weight-bold">{{ post.title }}</p>
                                     </div>
                                     <small>{{ post.article|truncatechars:200 }}</small>
-                                    <div class="row text-center">
-                                        <a class="btn btn-red rounded-2" href="">
+                                    <div class="row p-2">
+                                        <a class="btn btn-red btn-sm rounded-2" href="">
                                             Read Article
                                         </a>
                                     </div>
                                 </div>
-
-
-
-
-
 
                             </div>
                         </div>
