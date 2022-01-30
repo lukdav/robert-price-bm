@@ -16,5 +16,5 @@ class NewsPost(models.Model):
     class Meta:
         ordering = ['-date_posted']
 
-    # def __str__(self):
-    #     return self.title
+    def __str__(self):
+        return self.title
