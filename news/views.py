@@ -1,13 +1,6 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404
-from django.contrib import messages
-from django.contrib.auth.decorators import login_required
-from django.utils.text import slugify
+from django.shortcuts import render, get_object_or_404
 
 from .models import NewsPost
-
-from .forms import NewsPostForm
-
-
 
 
 def all_news(request):
@@ -32,5 +25,3 @@ def news_article(request, slug):
     }
 
     return render(request, 'news/news_article.html', context)
-
-
