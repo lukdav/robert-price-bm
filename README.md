@@ -159,6 +159,9 @@ Products
 
 ### Yet to be Implemented
 
+Home Page:
+It was planned to make the Home Page more visually appealling but time constraints prevented this being completed.
+
 Sizes
 It would have been desirable to have certain items in various sizes, lengths or thicknesses. The code has been designed to accomodate for items with various sizes, however it was not possible to adjust the product price inline with the size. For this reason all products have been set with no size. If however cetain products come in a variety of sizes with no price difference, then this feature is ready to implement, pending a change in size values as required.
 
@@ -175,8 +178,9 @@ Product Rating:
 - The rating system has not yet been linked to the product rating score but will be researched further as to the best method to achieve this.
 - Preventing the user from voting multiple times will be essential to make the system fair and representative, however adjusting their vote would be desirable.
 
-News CRUD:
+News CRUD functionality:
 - The ability for a superuser to Create, Update and Delete news articles without having to go into the Django Admin panel would be desirable.
+- This section was started but I encountered some bugs and didn't have time to resolve them before deployment. The code for the 'add_article' has been left in but has been commented out.
 
 Delivery:
 - In a real setting delivery may not be possible for certain products and/or to certain areas, especially outside the UK.
@@ -228,9 +232,8 @@ A report was conducted for a mobile device, and returned the following scores:
 There are many things that could be optimised, such as properly sizing images. All advisories will be considered and acted upon if necessary.
 
 4. User Stories
-- The first user story is addressed as the website provides a list of games and categorises them to make page navigation easier and so a better level of UX is achieved.
-- The second user story is addressed as the website provides a method of submitting new games.
-- The final user story is considered with the ability for admins to control website content; the ability to edit and delete games along with the ability to create, update and delete the categories.
+All User stories were completed as can be seen with the following screenshot of an excel table:
+![]
 
 ## Individual Page Testing 
 
