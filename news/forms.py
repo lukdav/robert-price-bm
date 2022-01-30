@@ -2,8 +2,10 @@ from django import forms
 
 from .models import NewsPost
 
+from products.widgets import CustomClearableFileInput
 
-class NewsPostForm(models.ModelForm):
+
+class NewsPostForm(forms.ModelForm):
 
     class Meta:
         model = NewsPost
