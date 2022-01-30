@@ -138,3 +138,12 @@ def delete_product(request, product_id):
 
     return redirect(reverse('products'))
 
+
+# def rate_one(request, product_id):
+#     if "user" not in session:
+#         return redirect(reverse('product_detail', args=[product.id]))
+#         messages.error(request, 'You must be signed in to rate products.')
+
+#     product = get_object_or_404(Product, pk=product_id)
+#     rating = product.rating
+#     print(rating)
