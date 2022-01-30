@@ -9,3 +9,7 @@ class Blog(models.Model):
     date_posted = models.DateTimeField(auto_now_add=True)
     image = models.ImageField(null=True, blank=True)
     article = models.TextField()
+
+    def __str__(self):
+        return self.title
+
