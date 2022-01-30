@@ -179,8 +179,8 @@ News CRUD:
 - The ability for a superuser to Create, Update and Delete news articles without having to go into the Django Admin panel would be desirable.
 
 Delivery:
-- In a real setting delivery may not be possible for certain products and/or to certain areas.
-- A postcode check would be required before the delivery cost is calculated and granted, for items over a certain weight/size. Smaller items may be posted and would follow the system demonstrated on this website.
+- In a real setting delivery may not be possible for certain products and/or to certain areas, especially outside the UK.
+- A postcode check would be required before the delivery cost is calculated and order approved/granted, for items over a certain weight/size. Smaller items may be posted and would follow the system demonstrated on this website.
 
 ---
 
@@ -238,6 +238,7 @@ Navigation:
 - Resize the screen to ensure the nav bar collapses to a button and the 'Free Delivery' banner disappears on smaller devices.
 - Click all nav buttons to ensure they work and direct the user to the correct page.
 - Before logging in, ensure the Top Navbar (and Mobile) contains only the Home, News, Shopping Bag and Account dropdown - containing Register and Login links.
+- Ensure the 'Total Cost' responds (turn red) and is calculated accurately with the addition of products to the user's shopping bag.
 - Log in as a registered user to ensure that the Navbar also contains the 'My Account' link.
 - Log in as an Admin to check the Account dropdown also contains the Add Product link.
 - Ensure all main product navigation links load to the correct pages.
@@ -252,6 +253,7 @@ Register/Login (and similar allauth) Pages:
 - Ensure the forms loads correctly with required inputs displayed.
 - Check form validation is working correctly.
 - Register/Login/Logout the ensure correct pages load and allauth form work correctly, including errors.
+- Use a real or temporary email address when registering to check if a confirmation email is received.
 - Ensure the correct toast is displayed for each situation.
 
 Products Page:
@@ -264,7 +266,7 @@ Products Page:
 - Ensure the product count is working and accurate for both categories and search queries.
 - Click on product cards/images to check the links to the individual product detail page works.
 - Click on the category links on product cards to ensure the correct filter is applied to the product list.
-- Scroll down the product list and click thhe Top button (in the bottom right corner) to ensure the user returns to the top of the page.
+- Scroll down the product list and click the Top button (in the bottom right corner) to ensure the user returns to the top of the page.
 - Log in as a super user and ensure the 'Edit/Delete' links are visible on each card (and they disappear when superuser is not logged in).
 - Click the Edit button and check whether the user is redirected to the Edit Product page.
 - Click delete (on an added 'test product' item) and ensure item is deleted from the product directory.
@@ -298,61 +300,62 @@ Shopping Bag Page:
 
 Checkout Page:
 - Resize the screen to check the responsiveness of the checkout page.
-- Ensure the shoping bag items are displayed correctly with accurate information.
-- 
+- Ensure the shoping bag items are displayed correctly with accurate information and totals.
+- Ensure the form displays correctly with the correct placeholders and * for required fields.
+- Ensure the 'Adjust Order' button works and redirects the user back to the Shopping Bag.
+- Try submitting the form with missing required fields to ensure the validation works correctly.
+- Ensure the 'Create Account' or 'Sign In' links are displayed if not signed in and they work as required.
+- Ensure the links change to a 'Save my information' checkbox to users that are signed in.
+- Enter an invalid card number to ensure the form validation works.
+- Ensure the 'Charge to the user's card' warning is displayed.
+- Enter the 'Test Card Number' (4242 4242 4242 4242) with any other numbers filling the card box and click 'Complete Order'.
+- Make sure the loading overlay is displayed while the transanction is procesing.
+- Ensure the success toast is displayed, with order number and email address.
+- Ensure the Checkout Success page is displayed with a thank you message and the order information.
+- Use a real or temporary email address when ordering to ensure an order confirmation email is received.
+- Click the Tools button and check it redirects to the correct section.
+- Sign in and order again after checking the 'Save Delivery Information' box to ensure the fields are prepoluated upon returning to the checkout.
 
+Add Product Page:
+- As a superuser/admin click the link to 'Add a Product'
+- Ensure the form loads correctly with the correct placeholders/dropdowns and labels.
+- Ensure only the Name, Description and Price are required fields and check form validation by attempting to submit the form with missing information.
+- Select an image and ensure it can be uploaded correctly.
+- Click the 'Cancel' button to redirect to the Products page.
+- Click Add a product and ensure the user is redirected to the product detail page and that all information was uploaded correctly.
+- Submit without an image and ensure the 'noimage.png' is displayed, then with an image to ensure it is displayed correctly.
 
-
-Add Product Page: 
 Edit product Page:
+- As a superuser/admin ensure all Edit links work correctly, redirecting to the Edit Product page.
+- Ensure the form loads correctly with prepolulated firlds and correct labels.
+- Ensure only the Name, Description and Price are required fields and check form validation by attempting to submit the form with missing information.
+- Select a different image and ensure it can be uploaded correctly.
+- Click the 'Cancel' button to redirect to the Products page.
+- Click Update Product button and ensure the user is redirected to the product detail page and that all information was uploaded correctly.
+- Submit without an image and ensure the 'noimage.png' is displayed, then with an image to ensure it is displayed correctly.
+- Ensure all toasts were displayed correctly (an alert to state that the user is editing a product and a success message post edit).
 
+My Account:
+- Click the My Account link to ensure the user is redirected to their Account page.
+- Resize the screen to check the responsiveness of the Account page.
+- Ensure the Delivery Information form is displayed correctly, with the correct labels, placeholders and dropdowns.
+- Fill in some information and click the 'Update' button. 
+- Ensure fields are prepopulated with accurate information upon returning to the Account page (and after 'Saving Information' during the Checkout process).
+- With no previous orders ensure the 'You don't have any previous orders' message is displayed on the Order History section.
+- Following making orders check that the Order History table is filled out accurately - date, order number, items, quantity, size and total cost.
 
+News:
+- Select 'News' from the Navigation bar - ensure all articles are displayed.
+- Resize the screen to check the responsiveness of the product page - check the hr element adjusts as required.
+- Ensure all products are displaying the correct information.
+- Click on article cards/images and 'Read Article' buttons to check the links to the Article page works.
 
+News Article:
+- Ensure all elements are displayed clearly and the image centrally.
+- Resize the screen to check the responsiveness of the article page.
+- Click the 'Back to News' button to ensure the user is returned to the News page.
+- Click the 'View Products' button and ensure the user is redirected to the Products page.
 
-Log In Page:
-- Ensure the form loads correctly with Username and Password inputs, along with form validation.
-- Enter incorrect details: first username, then password and vice versa to ensure the form and user accounts are secure.
-- Log in with existing account to ensure form works as expected and the Profile page is loaded, with the correct flash message displayed.
-- Click the Register link below to ensure the Register page is loaded.
-
-Add Game Page:
-- Ensure the form loads correctly.
-- Ensure the form validation works as it should if sections are left blank(the validation for game requirement and rules sections has a bug as mentioned in the bugs section).
-- Ensure the Add Requirement and Add Rule buttons work correctly adding the input to a list.
-- Check the correct categories are loaded in the the multiple dropdown checklist and that the checklist works as it should.
-- Click the 'Add Game' button with a different input missing to ensure required iputs are filled.
-- Click the 'Add Game' button with the fields filled correctly to ensure the information is transfered and stored in the database (MongoDB: Games), with the correct flash message displayed.
-
-Edit Game Page:
-- Go to the "Submit Game" page.
-- Ensure the form loads correctly with all fields prepopulated correctly with the game's details.
-- Ensure all validation and inputs function as with the Add Game page.
-- Click the 'Cancel' button to ensure the Game Page is reloaded.
-- Click the 'Edit Game' button with the fields filled correctly to ensure the information is updated and stored in the database, with the correct flash message displayed.
-
-Game Page:
-- Ensure the Game Page Title is the Game's Name.
-- Ensure the Game Description, Requirements and Rules are rendered correctly from the database.
-- Check the Rating is correct and that the Upvote button increments the rating by one, which also updates the database value.
-
-Profile Page:
-- Ensure the Username of the profile is displayed.
-- Further User details and personalisation of the page will be displayed here (Please see 'Yet to be implemented' section).
-
-Manage Categories Page:
-- Admin only.
-- Ensure all categories are rendered in a card each.
-- Each category/card has both an Edit and a Delete button.
-- Check the Edit button takes the Admin to the Edit Category Page.
-- Check the Delete button deletes the category, along with the flash message confirmation.
-
-Edit Categories Page:
-- Admin only.
-- Ensure form is displayed correctly with an input field for Category Name.
-- Check the input field is prepopulated with the current Category Name.
-- After editing the name, click the 'Update Category' button to ensure the category is both updated in the Categories Page as well as the database.
-- Ensure the flash message confirming the Updated Category is displayed as the Categories Page is loaded.
-- Back to the Edit form, click the 'Cancel' button to ensure the user is diverted back to the Categories page.
 
 ---
 
