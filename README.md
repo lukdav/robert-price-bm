@@ -235,30 +235,46 @@ There are many things that could be optimised, such as properly sizing images. A
 ## Individual Page Testing 
 
 Navigation:
-- Resize the screen to ensure the nav bar collapses to a button on smaller devices.
-- Log in as a registered user to ensure that the Navbar contains the links for Home, Submit Game, Profile and Log Out.
-- Log in as an Admin to the Navbar contains all of the links a registered user would see as well as the link to Manage Categories.
-- Log out of all accounts and ensure the Navbar contains only the Home, Register and Log In links.
-- Ensure all navigation links load to the correct pages, including the home link connected to the logo/page title.
+- Resize the screen to ensure the nav bar collapses to a button and the 'Free Delivery' banner disappears on smaller devices.
+- Click all nav buttons to ensure they work and direct the user to the correct page.
+- Before logging in, ensure the Top Navbar (and Mobile) contains only the Home, News, Shopping Bag and Account dropdown - containing Register and Login links.
+- Log in as a registered user to ensure that the Navbar also contains the 'My Account' link.
+- Log in as an Admin to check the Account dropdown also contains the Add Product link.
+- Ensure all main product navigation links load to the correct pages.
+- Ensure the home link is connected to the logo.
 
 Home Page:
-- Resize the screen to ensure the ScrollSpy Navigation menu disappears on smaller devices.
-- Ensure the correct categories are loaded in the ScrollSpy menu from the database.
-- Ensure the ScrollSpy menu links target the correct section and games. 
-- Click on the sign up call to action link to ensure the correct page is targeted.
-- Click the game cards to ensure the collapsible drops down and the correct information is loaded from the database; Game Name, Game Categories, Game Rating, with the Game Description, and the 'Submitted By' username in the dropdown.
-- Ensure the game rating shows the correct score.
-- Check the image displayed matches the first Category listed for the game.
-- Click the Rules button to ensure the Game Page is loaded.
-- Ensure the the Edit and Delete button are only rendered with an Admin's account.
-- Click the Edit button the ensure the Edit Game page is loaded.
-- Click the Delete button and ensure the game is Deleted.
+- Resize the screen to ensure the 'Call to Action' dissappears on the carousel, only on smaller devices and the carousel resizes accordingly.
+- Ensure all forward/backword buttons work on the carousel (including the middle lower buttons).
+- Click each button link of the carousel to ensure they redirect the user to the proper destination (both at small and large screen sizes).
 
-Register Page:
-- Ensure the form loads correctly with Username and Password inputs, along with form validation.
-- Try exiting username to ensure matching usernames do not occur.
-- Click the 'Register' button with the fields correctly filled and ensure the user's details are stored in the database (Password hashed), with the correct flash message displayed.
-- Click the Log In link below to ensure the Log In page is loaded.
+Register/Login (and similar allauth) Pages:
+- Ensure the forms loads correctly with required inputs displayed.
+- Check form validation is working correctly.
+- Register/Login/Logout the ensure correct pages load and allauth form work correctly, including errors.
+- Ensure the correct toast is displayed for each situation.
+
+Products Page:
+- Select 'All Products' from the Navigation bar - ensure all products are displayed.
+- Resize the screen to check the responsiveness of the product page - check the hr element adjusts as required.
+- Select each category from the Product Navigation bar and ensure that the correct products are displayed.
+- Select each option of the sorting selector on every category to ensure the sorting functionality works.
+- Using the Search input in the Top Navbar, search for items/terms to ensure it is functioning and filtering products as required.
+- Ensure the product count is working and accurate for both categories and search queries.
+- Click on product cards/images to check the links to the individual product detail page works.
+- Click on the category links on product cards to ensure the correct filter is applied to the product list.
+- Scroll down the product list and click thhe Top button (in the bottom right corner) to ensure the user returns to the top of the page.
+- Log in as a super user and ensure the 'Edit/Delete' links are visible on each card (and they disappear when superuser is not logged in).
+
+Product Detail Page:
+
+
+
+Add Product Page: 
+Edit product Page:
+
+
+
 
 Log In Page:
 - Ensure the form loads correctly with Username and Password inputs, along with form validation.

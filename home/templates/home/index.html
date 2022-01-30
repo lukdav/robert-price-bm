@@ -27,18 +27,18 @@
             </div>
             <div class="carousel-item">
                 <img src="{% static 'images/flags.jpg' %}" class="d-block mx-auto w-100" alt="Flags">
-                <a href="" class="carousel-caption btn-red sm-btn-red d-sm-none btn btn-sm rounded-2 text-uppercase p-2 mb-4 mx-auto">Sign Up</a>
+                <a href="{% url 'account_signup' %}" class="carousel-caption btn-red sm-btn-red d-sm-none btn btn-sm rounded-2 text-uppercase p-2 mb-4 mx-auto">Sign Up</a>
                 <div class="carousel-caption call-to-action d-none d-sm-block mb-5 pt-0 mx-auto">
                     <h2 class="p-2">Great discounts and deals for account holders</h2>
-                    <a href="" class="btn-red btn btn-lg rounded-2 text-uppercase p-2">Sign Up</a>
+                    <a href="{% url 'account_signup' %}" class="btn-red btn btn-lg rounded-2 text-uppercase p-2">Sign Up</a>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="{% static 'images/truck.jpg' %}" class="d-block mx-auto w-100" alt="Truck">
-                <a href="" class="carousel-caption btn-red sm-btn-red d-sm-none btn btn-sm rounded-2 text-uppercase p-2 mb-4 mx-auto">View Deals</a>
+                <a href="{% url 'news' %}" class="carousel-caption btn-red sm-btn-red d-sm-none btn btn-sm rounded-2 text-uppercase p-2 mb-4 mx-auto">View Deals</a>
                 <div class="carousel-caption call-to-action d-none d-sm-block mb-5 pt-0 mx-auto">
-                    <h2 class="p-2">Amazing deals on the best products for your project</h2>
-                    <a href="" class="btn-red btn btn-lg rounded-2 text-uppercase p-2">View Deals</a>
+                    <h2 class="p-2">See what we have been doing for our local community.</h2>
+                    <a href="{% url 'news' %}" class="btn-red btn btn-lg rounded-2 text-uppercase p-2">News</a>
                 </div>
             </div>
         </div>
