@@ -1,6 +1,13 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.contrib import messages
+from django.contrib.auth.decorators import login_required
+from django.utils.text import slugify
+
 from .models import NewsPost
+
 from .forms import NewsPostForm
+
+
 
 
 def all_news(request):
@@ -27,7 +34,8 @@ def news_article(request, slug):
     return render(request, 'news/news_article.html', context)
 
 
-def add_post(request):
+@login_required
+def add_article(request):
     """ A view to add articles to news """
 
     if not request.user.is_superuser:

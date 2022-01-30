@@ -43,6 +43,7 @@ As a site user I want to:
 
 - Easily register for an account to view a personalised profile, to view previous orders and to save delivery information.
 - Easily login and logout to have hassle-free access to my account.
+- Read news articles and information to learn more about the company.
 - Receive an email confirmation after registration for verification.
 
 
@@ -108,7 +109,7 @@ Products
 - An adjustable quantity input with plus and minus buttons.
 - A selector to select the specific size of item if the product has various sizes available.
 - A button to add quantity of the selcted product to the shopping bag.
-<!-- - The page also includes a rating and a button in order to Upvote the game, incrementing its rating by one. -->
+- The page also includes a rating system for account holders. This has yet to be fully implemented and is not affecting the rating score as yet.
 
 **The Add Product page:**
 - Superuser access only.
@@ -138,6 +139,15 @@ Products
 - An order summary is shown as a final check; it contains the product image, name, size, quantity and a subtotal price.
 - Finally the order total is calculated, delivery charge is added (depending on amount spent) and the grand total is given below.
 
+**The News page:**
+- Contains individual cards for each article.
+- Each article card displays the article image, title, posting date, section of conent and a button to view the article.
+- Clicking on an article image or button will take the user to the Article page.
+
+**The News Article page:**
+- Specific page for each article.
+- Displays the title, image, Date posted, article content and buttons to return to the News page or to view products.
+
 
 <!-- The Database (MongoDB):
 - The "never-have-i-ever" database contains three collections: "users", "categories" and "games".
@@ -162,8 +172,11 @@ Delete functionality:
 - A final check on whether the admin would like to delete the product would be a necessity with implementation, as these buttons may be clicked by mistake, potentially losing important information.
 
 Product Rating:
-- Preventing the user from upvoting multiple times will be essential to make the system fair and representative.
-<!-- - Limiting the value to 5 (a rating as a fraction of 5) -->
+- The rating system has not yet been linked to the product rating score but will be researched further as to the best method to achieve this.
+- Preventing the user from voting multiple times will be essential to make the system fair and representative, however adjusting their vote would be desirable.
+
+News CRUD:
+- The ability for a superuser to Create, Update and Delete news articles without having to go into the Django Admin panel would be desirable.
 
 Delivery:
 - In a real setting delivery may not be possible for certain products and/or to certain areas.
