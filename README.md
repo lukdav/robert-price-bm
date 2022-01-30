@@ -224,12 +224,12 @@ style.css
 
 3. Lighthouse (Dev Tools)
 A report was conducted for a mobile device, and returned the following scores:
-- Performance - 80%
-- Accessibility - 96%
+- Performance - 87%
+- Accessibility - 90%
 - Best Practices - 93%
 - SEO - 92%
 
-There are many things that could be optimised, such as properly sizing images. All advisories will be considered and acted upon if necessary.
+There are many things that could be optimised, such as efficiently encoding and serving images next-gen formats. All advisories will be considered and acted upon if possible and necessary.
 
 4. User Stories
 All User stories were completed as can be seen with the following screenshot of an excel table:
