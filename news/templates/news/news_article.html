@@ -26,18 +26,30 @@
         <div class="row">
             <div class="blog-container col-10 offset-1">
                 <div class="row">
-                    <h3>{{ article.title }}</h3>
-                </div>
-                <div class="row">
                     <div class="col-12 col-md-10 offset-md-1">
                         <div class="row">
-                            <img class="img-fluid" src="{{ article.image.url }}" alt="{{ article.title }}">
+                            <div class="col text-center">
+                                <img class="img-fluid rounded mt-4 mb-4" src="{{ article.image.url }}" alt="{{ article.title }}">
+                            </div>
                         </div>
-                        <div class="row">
+                        <div class="row text-red mb-4">
+                            <h3>{{ article.title }}</h3>
+                        </div>
+                        <div class="row mb-4">
                             <small class="text-muted">{{ article.date_posted }}</small>
                         </div>
-                        <div class="row">
+                        <div class="row mb-4">
                             {{ article.content }}
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col text-center">
+                                <a class="btn btn-outline-red btn-lg rounded-2 m-2" href="{% url 'news' %}">
+                                    Back to News
+                                </a>
+                                <a class="btn btn-red btn-lg rounded-2 m-2" href="{% url 'products' %}">
+                                    View Products
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
