@@ -14,7 +14,7 @@ Your order will be delivered to:
 {{ order.town_or_city }},
 {{ order.country }}.
 
-If you have any questions, please call us on {{ contact_email }}.
+If you have any questions, please contact us on {{ contact_email }}.
 
 Thank you for your order!
 
